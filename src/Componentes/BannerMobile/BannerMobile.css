@@ -1,0 +1,71 @@
+.container-banner-mobile
+  .container-card-banner-mobile
+  .container-card-banner-mobile-p1 {
+  position: relative;
+}
+
+.container-banner-mobile .slick-prev::before {
+  color: transparent;
+  opacity: 0;
+}
+
+.container-banner-mobile
+  .container-card-banner-mobile
+  button.slick-arrow.slick-prev {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1000000;
+  left: 12px;
+  background-image: url(/public/img/leftArrow.png);
+  background-repeat: no-repeat;
+  background-size: 10.3px;
+}
+.container-banner-mobile .slick-next::before {
+  color: transparent;
+  opacity: 0;
+}
+
+.container-banner-mobile
+  .container-card-banner-mobile
+  button.slick-arrow.slick-next {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1000000;
+  right: 12px;
+  background-image: url(/public/img/rigthArrow.png);
+  background-repeat: no-repeat;
+  background-size: 10.3px;
+}
+
+.container-banner-mobile .slick-dots {
+  filter: invert(1);
+  position: absolute;
+  bottom: 16px;
+  z-index: 100000;
+}
+
+.container-banner-mobile .slick-dots li {
+  margin: unset;
+}
+
+.container-banner-mobile .slick-dots .slick-active button::before {
+  font-size: small;
+}
+
+.container-banner-mobile .container-card-banner-mobile-button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100000;
+  bottom: 44px;
+  border: 1px solid #ffffff;
+  padding: 13px 20px 13px 20px;
+  border-radius: 25px;
+  width: 137px;
+  right: 100px;
+}
+
+.container-card-banner-mobile-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
