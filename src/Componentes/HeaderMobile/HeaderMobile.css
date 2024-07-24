@@ -1,0 +1,29 @@
+.container-header-mobile {
+  background-color: #ffcf7d;
+  width: 100%;
+}
+
+.container-card-header-mobile {
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.container-card-header-mobile-p1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.container-card-header-mobile-menu-and-icon-heart {
+  display: flex;
+  align-items: center;
+  gap: 17.67px;
+}
+
+.container-card-header-mobile-icons {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}

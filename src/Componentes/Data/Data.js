@@ -4,41 +4,38 @@ const Data = [
       {
         images: [
           {
-            image: "../img/logoLudiqueB.svg",
+            image: "../img/logoLudiqueBlack.png",
           },
           {
-            image: "../img/logoLudique.svg",
+            image: "../img/logoLudique.png",
           },
         ],
+
         icons: [
           {
-            icon: "../img/",
+            icon: "../img/heart.png ",
           },
           {
-            icon: "../img/",
+            icon: "../img/puppet.png",
           },
           {
-            icon: "../img/",
+            icon: "../img/bag.png",
           },
           {
-            icon: "../img/",
+            icon: "../img/search1.png",
           },
           {
-            icon: "../img/",
+            icon: "../img/user.png",
           },
           {
-            icon: "../img/",
+            icon: "../img/close.png",
           },
           {
-            icon: "../img/",
-          },
-          {
-            icon: "../img/",
-          },
-          {
-            icon: "../img/",
+            icon: "../img/arrowLeft.png",
           },
         ],
+        input: "search",
+        placeholder: "Digite aqui sua busca",
       },
     ],
   },
