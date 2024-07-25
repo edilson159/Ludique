@@ -27,3 +27,9 @@
   align-items: center;
   gap: 19px;
 }
+
+@media (min-width: 1025px) {
+  .container-header-mobile {
+    display: none;
+  }
+}
