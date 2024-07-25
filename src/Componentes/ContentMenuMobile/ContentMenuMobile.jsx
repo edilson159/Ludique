@@ -14,8 +14,12 @@ const ContentMenuMobile = () => {
     setActived(!actived);
   }
   function closeMenuMobile() {
-    setActived(actived);
-    setOpen(!open);
+    if (actived) {
+      setActived(!actived);
+      setOpen(!open);
+    } else {
+      setOpen(!open);
+    }
   }
   return (
     <div>

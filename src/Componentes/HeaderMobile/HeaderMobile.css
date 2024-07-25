@@ -22,10 +22,23 @@
   gap: 17.67px;
 }
 
+.container-card-header-mobile-icon-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
 .container-card-header-mobile-icons {
   display: flex;
   align-items: center;
   gap: 19px;
+}
+
+.container-card-header-mobile-icons .icon-bag {
+  width: 17px;
+  height: 19px;
 }
 
 @media (min-width: 1025px) {

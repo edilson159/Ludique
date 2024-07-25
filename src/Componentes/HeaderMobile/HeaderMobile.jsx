@@ -22,7 +22,16 @@ const HeaderMobile = () => {
               <div className="container-card-header-mobile-menu-and-icon-heart">
                 <MenuMobile />
                 {icons.slice(0, 1).map(({ icon }, index) => (
-                  <img key={index} src={icon} alt="" />
+                  <div
+                    className="container-card-header-mobile-icon-heart"
+                    key={index}
+                  >
+                    <img
+                      className="container-card-header-mobile-icon-heart-img"
+                      src={icon}
+                      alt=""
+                    />
+                  </div>
                 ))}
               </div>
 
@@ -47,7 +56,14 @@ const HeaderMobile = () => {
               )}
               <div className="container-card-header-mobile-icons">
                 {icons.slice(1, 3).map(({ icon }, index) => (
-                  <img key={index} src={icon} alt="" />
+                  <img
+                    className={
+                      icon === "../img/puppet.png" ? "icon-puppet" : "icon-bag"
+                    }
+                    key={index}
+                    src={icon}
+                    alt=""
+                  />
                 ))}
               </div>
             </div>

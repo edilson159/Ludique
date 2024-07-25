@@ -58,13 +58,13 @@
 
 .container-menu-hamburguer-open {
   background: url("/public/img/imgMenuLateral.png");
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   border: none;
   z-index: 100000;
   top: -5px;
-  background-size: 15px;
+  background-size: 20px;
 }
 
 .container-item-card-menu-lateral {
