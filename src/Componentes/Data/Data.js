@@ -79,7 +79,8 @@ const Data = [
           {
             icon: "../img/arrowIndication.png",
             img: "../img/imgLancamentos.svg",
-            name: "LANÇAMENTOS",
+            title: "LANÇAMENTOS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -288,7 +289,8 @@ const Data = [
           {
             img: "../img/imgCalcados.svg",
             icon: "../img/arrowIndication.png",
-            name: "CALÇADOS",
+            title: "CALÇADOS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -497,7 +499,8 @@ const Data = [
           {
             img: "../img/imgRoupas.svg",
             icon: "../img/arrowIndication.png",
-            name: "ROUPAS",
+            title: "ROUPAS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -706,7 +709,8 @@ const Data = [
           {
             img: "../img/imgMeninos.svg",
             icon: "../img/arrowIndication.png",
-            name: "MENINOS",
+            title: "MENINOS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -915,7 +919,8 @@ const Data = [
           {
             img: "../img/imgMeninas.svg",
             icon: "../img/arrowIndication.png",
-            name: "MENINAS",
+            title: "MENINAS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -1124,7 +1129,8 @@ const Data = [
           {
             img: "../img/imgMarcas.svg",
             icon: "../img/arrowIndication.png",
-            name: "MARCAS",
+            title: "MARCAS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -1334,7 +1340,8 @@ const Data = [
           {
             img: "../img/imgAcessorios.svg",
             icon: "../img/arrowIndication.png",
-            name: "ACESSÓRIOS",
+            title: "ACESSÓRIOS",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -1546,7 +1553,8 @@ const Data = [
           {
             img: "../img/imgOutlet.svg",
             icon: "../img/arrowIndication.png",
-            name: "OUTLET",
+            title: "OUTLET",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",
@@ -1755,7 +1763,8 @@ const Data = [
           {
             img: "../img/imgDoces.svg",
             icon: "../img/arrowIndication.png",
-            name: "DOCES",
+            title: "DOCES",
+            name: "VER TODOS",
             children: [
               {
                 title: "Tamanhos",

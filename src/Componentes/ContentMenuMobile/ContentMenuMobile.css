@@ -1,0 +1,222 @@
+.container-card-content-menu-mobile-header-p1-actived {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.container-card-content-menu-mobile-header-p1-actived h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.container-card-content-menu-mobile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004581;
+  padding: 20px 24.5px 20px 16px;
+}
+
+.container-card-content-menu-mobile-header-p1 a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.container-card-content-menu-mobile-header-p1 h2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.container-card-content-menu-mobile-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-card-content-menu-mobile-body-map {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 40px;
+  padding: 40px 16px 0px 16px;
+  gap: 16px;
+}
+
+.container-card-content-menu-mobile-body-map-p1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-details {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #cacaca;
+  padding: 3.5px 0px 19.5px 0px;
+}
+
+.container-details summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #393939;
+}
+
+.container-details[open] summary {
+  padding-bottom: 19.5px;
+}
+
+.container-details .container-card-content-menu-mobile-body-p2-img {
+  background-image: url(/public/img/summaryOpen.png);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 7px;
+  top: 20px;
+}
+
+.container-details[open] .container-card-content-menu-mobile-body-p2-img {
+  background-image: url(/public/img/summaryClose.png);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  width: 14px;
+  height: 14px;
+  top: 25px;
+}
+
+.container-details .container-details-todos {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-number {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 5px;
+  padding-bottom: 16px;
+}
+
+.container-card-calçados {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-card-calçados p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+.container-details-todos-p1 {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-marcas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-card-marcas p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+.container-details-todos-p2 {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-number h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.container-card-number p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.container-card-content-menu-mobile-body-p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 28px 16px 200px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.container-card-content-menu-mobile-body-p1-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.container-card-content-menu-mobile-body-p1-item-p1 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-menu-hamburguer-close {
+  background: url("/public/img/imgClose.png");
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 100000;
+  background-size: 15px;
+}
+
+.container-name-children {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #004581;
+}

@@ -4,6 +4,14 @@
   position: relative;
 }
 
+.container-card-banner-mobile-p1 {
+  width: 100%;
+}
+
+.container-card-banner-mobile-p1 img {
+  width: 100%;
+}
+
 .container-banner-mobile .slick-prev::before {
   color: transparent;
   opacity: 0;
