@@ -53,24 +53,30 @@
 }
 
 .container-banner-mobile .slick-dots li {
-  margin: unset;
+  margin: -5px;
 }
 
 .container-banner-mobile .slick-dots .slick-active button::before {
-  font-size: small;
+  font-size: 10px;
 }
 
-.container-banner-mobile .container-card-banner-mobile-button {
+.container-card-banner-mobile-button {
   display: flex;
+  width: 100%;
   justify-content: center;
   position: absolute;
   z-index: 100000;
   bottom: 44px;
+}
+
+.container-banner-mobile .container-card-banner-mobile-button-item {
+  display: flex;
+  justify-content: center;
   border: 1px solid #ffffff;
   padding: 13px 20px 13px 20px;
   border-radius: 25px;
   width: 137px;
-  right: 100px;
+  right: 119px;
 }
 
 .container-card-banner-mobile-button a {

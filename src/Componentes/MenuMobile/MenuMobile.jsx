@@ -3,6 +3,7 @@ import UseContext from "../Hook/UseContext";
 import Data from "../Data/Data";
 import React, { useState } from "react";
 import ContentMenuMobile from "../ContentMenuMobile/ContentMenuMobile";
+import FooterMenuMobile from "../FooterMenuMobile/FooterMenuMobile";
 
 function Drawer({ open }) {
   return (
@@ -14,6 +15,7 @@ function Drawer({ open }) {
       <div className="container-drawer-p1" />
       <div className="container-drawer-p2 ">
         <ContentMenuMobile />
+        <FooterMenuMobile />
       </div>
     </div>
   );

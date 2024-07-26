@@ -1,0 +1,22 @@
+.container-header-benefit-mobile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(0deg, #b8993a, #b8993a),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  padding: 11px 0px;
+  margin-bottom: 4px;
+}
+
+.container-card-item-header-benefit-mobile {
+  display: flex;
+}
+
+.container-card-item-header-benefit-mobile p,
+span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: center;
+  color: #ffffff;
+}

@@ -35,7 +35,9 @@ const BannerMobile = () => {
                   <img src={image} alt="" />
                   {button && (
                     <div className="container-card-banner-mobile-button">
-                      <a href={link}>{button}</a>
+                      <div className="container-card-banner-mobile-button-item">
+                        <a href={link}>{button}</a>
+                      </div>
                     </div>
                   )}
                 </div>

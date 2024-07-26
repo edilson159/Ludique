@@ -1,0 +1,70 @@
+.container-card-item-section-banner-meninos {
+  position: relative;
+}
+
+.container-card-item-section-banner-meninos
+  .container-card-item-section-banner-p1 {
+  right: 16px;
+}
+
+.container-card-item-section-banner-meninas {
+  position: relative;
+}
+
+.container-card-item-section-banner-meninas
+  .container-card-item-section-banner-p1 {
+  left: 16px;
+}
+
+.container-card-item-section-banner-p1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  gap: 24px;
+  top: 65px;
+  color: #ffffff;
+}
+
+.container-card-item-section-banner-p1 h2 {
+  font-family: Sofia;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 47.28px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.container-card-item-section-banner-p1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 11px 15px;
+  border-radius: 17px;
+}
+
+.button a {
+  font-family: LEMON MILK;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.21px;
+  text-align: center;
+}
+
+.container-card-item-section-banner-meninos-button a {
+  text-decoration: none;
+  color: #00324e;
+}
+
+.container-card-item-section-banner-meninas a {
+  text-decoration: none;
+  color: #e74066;
+}

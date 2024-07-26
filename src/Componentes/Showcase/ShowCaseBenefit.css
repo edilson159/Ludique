@@ -1,0 +1,38 @@
+.container-card-showcase-benefit {
+  margin: 26px 16px;
+}
+
+.container-card-showcase-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  border-left: 1px solid #cacaca;
+  padding-left: 12px;
+}
+
+.container-card-showcase-benefit-item h2 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.06px;
+  text-align: left;
+  color: #393939;
+}
+
+.container-card-showcase-benefit-item p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-showcase-benefit-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #004581;
+}

@@ -4,10 +4,10 @@ import UseContext from "../Hook/UseContext";
 import Data from "../Data/Data";
 
 const ContentMenuMobile = () => {
-  const { open, setOpen } = UseContext();
+  const { open, setOpen, actived, setActived } = UseContext();
   const [dataChildren, setDataChildren] = useState([]);
   const [nameData, setNameData] = useState("");
-  const [actived, setActived] = useState(false);
+
   function browsingMenu(data, name) {
     setDataChildren(data);
     setNameData(name);

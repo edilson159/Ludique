@@ -1,10 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Data from "../Data/Data";
 import "./HeaderMobile.css";
 import MenuMobile from "../MenuMobile/MenuMobile";
+import HeaderBenefitMobile from "../HeaderBenefit/HeaderBenefitMobile";
 
 const HeaderMobile = () => {
   const [over, setOver] = useState(true);
+  const [scrolled, setScroulled] = useState(false);
+
+  useEffect(() => {
+    const handleScroull = () => {
+      if (window.scrollY > 40) {
+        setScroulled(true);
+        setOver(false);
+      } else {
+        setScroulled(false);
+        setOver(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroull);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroull);
+    };
+  }, []);
 
   function togleOver() {
     setOver(!over);
@@ -13,10 +33,13 @@ const HeaderMobile = () => {
     <header
       onMouseEnter={togleOver}
       onMouseLeave={togleOver}
-      className="container-header-mobile"
+      className={
+        scrolled ? "container-header-mobile-fixo" : "container-header-mobile"
+      }
     >
+      <HeaderBenefitMobile />
       {Data.find((e) => e.headerMobile).headerMobile.map(
-        ({ images, icons, placeholder, input }, index) => (
+        ({ images, icons }, index) => (
           <div className="container-card-header-mobile" key={index}>
             <div className="container-card-header-mobile-p1">
               <div className="container-card-header-mobile-menu-and-icon-heart">
@@ -70,6 +93,30 @@ const HeaderMobile = () => {
           </div>
         )
       )}
+      <div className="container-card-header-mobile-input">
+        {Data.find((e) => e.headerMobile).headerMobile.map(
+          ({ input, placeholder, icons }, index) => (
+            <div key={index} className="container-card-header-mobile-input-p1">
+              <input
+                className="container-card-header-mobile-input-item"
+                type={input}
+                placeholder={placeholder}
+              />
+              {icons.map(
+                ({ icon }, index) =>
+                  icon === "../img/search1.png" && (
+                    <img
+                      key={index}
+                      className="container-card-header-mobile-input-icon"
+                      src={icon}
+                      alt=""
+                    />
+                  )
+              )}
+            </div>
+          )
+        )}
+      </div>
     </header>
   );
 };

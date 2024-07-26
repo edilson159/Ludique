@@ -1,5 +1,18 @@
 .container-header-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   background-color: #ffcf7d;
+  width: 100%;
+}
+
+.container-header-mobile-fixo {
+  position: fixed;
+  z-index: 100000000000;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   width: 100%;
 }
 
@@ -39,6 +52,33 @@
 .container-card-header-mobile-icons .icon-bag {
   width: 17px;
   height: 19px;
+}
+
+.container-card-header-mobile-input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-card-header-mobile-input-p1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  border: 1px solid #626262;
+  border-radius: 24px;
+  height: 40px;
+}
+
+.container-card-header-mobile-input-item {
+  text-align: left;
+}
+
+.container-card-header-mobile-input-item::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
 }
 
 @media (min-width: 1025px) {

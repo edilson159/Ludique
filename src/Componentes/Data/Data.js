@@ -40,6 +40,14 @@ const Data = [
     ],
   },
   {
+    headerBenefitMobile: [
+      {
+        name: "Frete Grátis ",
+        span: "- Acima de R$ 399,99",
+      },
+    ],
+  },
+  {
     bannerMobile: [
       {
         link: "//",
@@ -1977,15 +1985,15 @@ const Data = [
   {
     footerMenuMobile: [
       {
-        image: "../img/heart.png",
+        image: "../img/heartW.png",
         name: "Meu Favoritos",
       },
       {
-        image: "../img/bag.png",
+        image: "../img/bagW.png",
         name: "Meus Pedidos",
       },
       {
-        image: "../img/puppet.png",
+        image: "../img/puppetW.png",
         name: "Minha Conta",
       },
       {
@@ -1999,6 +2007,46 @@ const Data = [
       {
         image: "../img/imgFale.png",
         name: "Fale Conosco",
+      },
+    ],
+  },
+  {
+    showcaseBenefit: [
+      {
+        title: "Frete grátis",
+        name: "A partir de R$ 499,99",
+        img: "../img/ImgFrete.png",
+      },
+      {
+        title: "Troque sem custo",
+        name: "Na loja física",
+        img: "../img/imgTroque.png",
+      },
+      {
+        title: "Retire na loja",
+        name: "Saiba como",
+        img: "../img/imgRetire.png",
+      },
+      {
+        title: "1ª Troca grátis",
+        name: "Saiba mais",
+        img: "../img/imgTroca.png",
+      },
+    ],
+  },
+  {
+    sectionBanner: [
+      {
+        title: "Meninos",
+        description: "Encontre todos os estilos para o seu pequeno",
+        button: "VER PRODUTOS",
+        img: "../img/imgBannerMenino.png",
+      },
+      {
+        title: "Meninas",
+        description: "Encontre todos os estilos para a sua pequena",
+        button: "VER PRODUTOS",
+        img: "../img/imgBannerMenina.png",
       },
     ],
   },

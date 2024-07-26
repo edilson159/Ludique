@@ -2,10 +2,13 @@ import { useEffect, useState } from "react";
 import BannerMobile from "../Componentes/BannerMobile/BannerMobile";
 import { Context } from "../Componentes/Context/Context";
 import HeaderMobile from "../Componentes/HeaderMobile/HeaderMobile";
+import ShowCaseBenefit from "../Componentes/Showcase/ShowCaseBenefit";
+import SectionBanner from "../Componentes/SectionsBanner/SectionBanner";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState(false);
+  const [actived, setActived] = useState(false);
 
   const [showBlockMobile, setShowBlockMobile] = useState(true);
 
@@ -46,8 +49,19 @@ const Home = () => {
       window.removeEventListener("resize", handleResize2);
     };
   }, []);
+
+  function toggleScrollPageHome() {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }
+  toggleScrollPageHome();
   return (
-    <Context.Provider value={{ open, setOpen, title, setTitle }}>
+    <Context.Provider
+      value={{ open, setOpen, title, setTitle, actived, setActived }}
+    >
       {" "}
       <section>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,6 +72,8 @@ const Home = () => {
         />
         {showBlockMobile && <HeaderMobile />}
         {showBlockMobile && <BannerMobile />}
+        {showBlockMobile && <ShowCaseBenefit />}
+        <SectionBanner />
       </section>
     </Context.Provider>
   );
