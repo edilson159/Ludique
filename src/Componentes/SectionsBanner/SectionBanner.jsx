@@ -40,7 +40,11 @@ const SectionBanner = () => {
                   <a href="//">{button}</a>
                 </div>
               </div>
-              <img src={img} alt="" />
+              <img
+                className="container-card-item-section-banner-img"
+                src={img}
+                alt=""
+              />
             </div>
           </div>
         )

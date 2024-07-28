@@ -1,4 +1,5 @@
 .container-card-item-section-banner-meninos {
+  width: 100%;
   position: relative;
 }
 
@@ -8,6 +9,7 @@
 }
 
 .container-card-item-section-banner-meninas {
+  width: 100%;
   position: relative;
 }
 
@@ -67,4 +69,8 @@
 .container-card-item-section-banner-meninas a {
   text-decoration: none;
   color: #e74066;
+}
+
+.container-card-item-section-banner-img {
+  width: 100%;
 }

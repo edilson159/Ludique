@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import "./Home.css";
 import BannerMobile from "../Componentes/BannerMobile/BannerMobile";
 import { Context } from "../Componentes/Context/Context";
 import HeaderMobile from "../Componentes/HeaderMobile/HeaderMobile";
-import ShowCaseBenefit from "../Componentes/Showcase/ShowCaseBenefit";
+import ShowCaseBenefit from "../Componentes/Showcase/ShowCaseBenefit.jsx";
 import SectionBanner from "../Componentes/SectionsBanner/SectionBanner";
+import ShowCaseProducts from "../Componentes/Showcase/ShowCaseProducts";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -60,7 +62,15 @@ const Home = () => {
   toggleScrollPageHome();
   return (
     <Context.Provider
-      value={{ open, setOpen, title, setTitle, actived, setActived }}
+      value={{
+        open,
+        setOpen,
+        title,
+        setTitle,
+        actived,
+        setActived,
+        showBlockDesktop,
+      }}
     >
       {" "}
       <section>
@@ -74,6 +84,7 @@ const Home = () => {
         {showBlockMobile && <BannerMobile />}
         {showBlockMobile && <ShowCaseBenefit />}
         <SectionBanner />
+        <ShowCaseProducts />
       </section>
     </Context.Provider>
   );

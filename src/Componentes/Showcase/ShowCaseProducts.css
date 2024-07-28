@@ -1,0 +1,251 @@
+.container-showcase-products {
+  margin: 39px 0px 45px 0px;
+}
+
+.container-card-showcase-products-main {
+  padding: 0px 10px 0px 20px;
+}
+
+.container-card-showcase-products {
+  background-color: #fff;
+  width: 93% !important;
+}
+
+.container-card-showcase-products-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.container-card-showcase-products-header-p1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.container-card-showcase-products-header-p1
+  .container-card-showcase-products-header-p1-img {
+  height: 10px;
+}
+
+.container-card-showcase-products-header-p1 .img-1 {
+  transform: rotate(180deg);
+}
+
+.container-card-showcase-products-header-p1-title {
+  font-family: LEMON MILK;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 43.22px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.container-card-showcase-products-header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.container-card-showcase-products-header-buttons button {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.06px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #626262;
+  background-color: #fff;
+  border-radius: 24px;
+  border: 0.5px solid #cacaca;
+  height: 28px;
+}
+
+.container-card-showcase-products-p1 button.slick-arrow.slick-next {
+  position: absolute;
+  z-index: 10000;
+  background-image: url(/public/img/arrowRightProducts.png);
+  background-repeat: no-repeat;
+  right: -11px;
+  height: 30px;
+  background-size: 10px;
+  transform: translate(0, -120%);
+}
+
+.container-card-showcase-products-p1 .slick-next::before {
+  color: transparent;
+  opacity: 0;
+}
+
+.container-card-showcase-products-p1 button.slick-arrow.slick-prev {
+  position: absolute;
+  z-index: 10000;
+  background-image: url(/public/img/arrowLeftProducts.png);
+  background-repeat: no-repeat;
+  left: -14px;
+  height: 30px;
+  background-size: 10px;
+  transform: translate(0, -120%);
+}
+
+.container-card-showcase-products-p1 .slick-prev::before {
+  color: transparent;
+  opacity: 0;
+}
+
+.container-card-showcase-products-p1 .slick-dots {
+  bottom: -19px;
+}
+
+.container-showcase-products
+  .container-card-showcase-products-p1
+  .slick-dots
+  li {
+  margin: 0px;
+}
+
+.container-showcase-products
+  .container-card-showcase-products-p1
+  .slick-dots.slick-active
+  button::before {
+  font-size: 10px !important ;
+}
+
+.container-card-showcase-products-icons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 8%;
+}
+
+.container-card-showcase-products-logo-ludique {
+  position: absolute;
+  top: 9.33px;
+  left: 8px;
+  width: 39px;
+  height: 10.86px;
+  top: 8px;
+  left: 6px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.container-card-showcase-products-icon-heart {
+  position: absolute;
+  top: 9.33px;
+  right: 15px;
+  width: 16.17px;
+  height: 13.42px;
+}
+
+.container-card-showcase-products-img {
+  width: 100%;
+}
+
+.container-description {
+  position: relative;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  gap: 16px;
+  width: 160px;
+  padding: 12px 9px 8px 9px;
+}
+
+.container-card-showcase-products h2 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #121212;
+}
+
+.container-card-showcase-products-old-price-and-discount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.container-card-showcase-products-old-price-and-discount .container-old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.06px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-showcase-products-old-price-and-discount .container-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 45px;
+  background-color: #e7c367;
+}
+
+.container-discount p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11.72px;
+  text-align: center;
+  color: #fff;
+  padding: 4px;
+}
+
+.container-card-showcase-products-current-price {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  color: #121212;
+}
+
+.container-card-showcase-products-payment {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 11.72px;
+  text-align: left;
+  color: #626262;
+}
+
+.container-card-showcase-products-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: 1px solid #004581;
+  width: 140px;
+  height: 36px;
+}
+
+.container-card-showcase-products-button a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.06px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #004581;
+  text-decoration: none;
+}
+
+.container-card-showcase-products-name {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.06px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 16px;
+}
+
+@media (min-width: 1025px) {
+  .container-card-showcase-products-logo-ludique {
+    width: 72px;
+    height: 20px;
+  }
+}

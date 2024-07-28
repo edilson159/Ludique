@@ -2050,6 +2050,96 @@ const Data = [
       },
     ],
   },
+  {
+    showcaseProductsAndBanner: [
+      {
+        title: "BEST SELLERS",
+        icon: "../img/iconHeaderProducts.png",
+        name: "VER TODOS >",
+        buttons: [
+          {
+            button: "0-3 meses",
+          },
+          {
+            button: "1-3 anos",
+          },
+          {
+            button: "1-3 anos",
+          },
+          {
+            button: "10-14 anos",
+          },
+        ],
+      },
+      {
+        showcaseProducts: [
+          {
+            logo: "../img/logoLudiqueP.png",
+            img: "../img/imgProducts.png",
+            icon: "../img/iconHeartGrey.png",
+            title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+            oldPrice: "R$ 290,00",
+            currentPrice: "R$ 218,00",
+            button: "Adicionar à sacola",
+            link: "//",
+            payment: "ou em até 6x de R$ 52,90",
+            discount: "-10%",
+          },
+          {
+            logo: "../img/logoLudiqueP.png",
+            img: "../img/imgProducts.png",
+            icon: "../img/iconHeartGrey.png",
+            title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+            oldPrice: "R$ 290,00",
+            currentPrice: "R$ 218,00",
+            button: "Adicionar à sacola",
+            link: "//",
+            payment: "ou em até 6x de R$ 52,90",
+            discount: "-10%",
+          },
+          {
+            logo: "../img/logoLudiqueP.png",
+            img: "../img/imgProducts.png",
+            icon: "../img/iconHeartGrey.png",
+            title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+            oldPrice: "R$ 290,00",
+            currentPrice: "R$ 218,00",
+            button: "Adicionar à sacola",
+            link: "//",
+            payment: "ou em até 6x de R$ 52,90",
+            discount: "-10%",
+          },
+          {
+            logo: "../img/logoLudiqueP.png",
+            img: "../img/imgProducts.png",
+            icon: "../img/iconHeartGrey.png",
+            title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+            oldPrice: "R$ 290,00",
+            currentPrice: "R$ 218,00",
+            button: "Adicionar à sacola",
+            link: "//",
+            payment: "ou em até 6x de R$ 52,90",
+            discount: "-10%",
+          },
+          {
+            logo: "../img/logoLudiqueP.png",
+            img: "../img/imgProducts.png",
+            icon: "../img/iconHeartGrey.png",
+            title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+            oldPrice: "R$ 290,00",
+            currentPrice: "R$ 218,00",
+            button: "Adicionar à sacola",
+            link: "//",
+            payment: "ou em até 6x de R$ 52,90",
+            discount: "-10%",
+          },
+        ],
+      },
+      {
+        img: "../img/imgBannerBestSellers.png",
+      },
+    ],
+  },
 ];
 
 export default Data;
