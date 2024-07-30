@@ -4,10 +4,11 @@ import BannerMobile from "../Componentes/BannerMobile/BannerMobile";
 import { Context } from "../Componentes/Context/Context";
 import HeaderMobile from "../Componentes/HeaderMobile/HeaderMobile";
 import ShowCaseBenefit from "../Componentes/Showcase/ShowCaseBenefit.jsx";
-import SectionBanner from "../Componentes/SectionsBanner/SectionBanner";
+import SectionBanner from "../Componentes/Sections/SectionBanner";
 import ShowCaseProducts from "../Componentes/Showcase/ShowCaseProducts";
-import SectionBanner2 from "../Componentes/SectionsBanner/SectionBanner2.jsx";
-import SectionBanner3 from "../Componentes/SectionsBanner/SectionBanner3.jsx";
+import SectionBanner2 from "../Componentes/Sections/SectionBanner2.jsx";
+import SectionBanner3 from "../Componentes/Sections/SectionBanner3.jsx";
+import SectionExclusive from "../Componentes/Sections/SectionExclusive.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -89,6 +90,7 @@ const Home = () => {
         <ShowCaseProducts />
         <SectionBanner2 />
         <SectionBanner3 />
+        <SectionExclusive />
       </section>
     </Context.Provider>
   );

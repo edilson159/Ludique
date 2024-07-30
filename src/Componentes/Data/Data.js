@@ -2188,6 +2188,28 @@ const Data = [
       },
     ],
   },
+  {
+    exclusiveLudique: [
+      {
+        imgs: [
+          {
+            img: "../img/imgExclusivoLu.png",
+          },
+          {
+            img: "../img/imgBackgroundleft.png",
+          },
+          {
+            img: "../img/imgBackgroundRight.png",
+          },
+        ],
+        button: "VER EXCLUSIVOS LUDIQUE",
+        description:
+          "Dia de chuva? Que tal deixar eles ainda mais divertidos e confortáveis com as Galochas Ludique? São diversas cores para toda a criançada!",
+        title: "EXCLUSIVO ",
+        span: "LUDIQUE",
+      },
+    ],
+  },
 ];
 
 export default Data;
