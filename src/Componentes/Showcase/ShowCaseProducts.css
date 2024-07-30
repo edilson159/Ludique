@@ -75,6 +75,8 @@
 }
 
 .container-card-showcase-products-p1 .slick-next::before {
+  position: absolute;
+  right: 10px;
   color: transparent;
   opacity: 0;
 }

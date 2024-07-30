@@ -2140,6 +2140,54 @@ const Data = [
       },
     ],
   },
+  {
+    sectionBanner2: [
+      {
+        img: "../img/imgBannerMarvel.png",
+        button: "VER PRODUTOS",
+      },
+      {
+        img: "../img/imgBannerDisnei.png",
+        button: "VER PRODUTOS",
+      },
+    ],
+  },
+  {
+    sectionBanner3: [
+      {
+        img: "../img/imgBannerCasual.png",
+        name: "Casual",
+      },
+      {
+        img: "../img/imgBannerFesta.png",
+        name: "Festa",
+      },
+      {
+        img: "../img/imgBannerEscolar.png",
+        name: "Escolar",
+      },
+      {
+        img: "../img/imgBannerEsporte.png",
+        name: "Esporte",
+      },
+      {
+        img: "../img/imgBannerBallet.png",
+        name: "Ballet",
+      },
+      {
+        img: "../img/imgBannerPraia.png",
+        name: "Praia",
+      },
+      {
+        img: "../img/imgBannerFutebol.png",
+        name: "Futebol",
+      },
+      {
+        img: "../img/imgBannerPresente.png",
+        name: "Presente",
+      },
+    ],
+  },
 ];
 
 export default Data;

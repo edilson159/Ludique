@@ -6,6 +6,8 @@ import HeaderMobile from "../Componentes/HeaderMobile/HeaderMobile";
 import ShowCaseBenefit from "../Componentes/Showcase/ShowCaseBenefit.jsx";
 import SectionBanner from "../Componentes/SectionsBanner/SectionBanner";
 import ShowCaseProducts from "../Componentes/Showcase/ShowCaseProducts";
+import SectionBanner2 from "../Componentes/SectionsBanner/SectionBanner2.jsx";
+import SectionBanner3 from "../Componentes/SectionsBanner/SectionBanner3.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -85,6 +87,8 @@ const Home = () => {
         {showBlockMobile && <ShowCaseBenefit />}
         <SectionBanner />
         <ShowCaseProducts />
+        <SectionBanner2 />
+        <SectionBanner3 />
       </section>
     </Context.Provider>
   );
