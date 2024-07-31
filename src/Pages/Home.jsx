@@ -14,6 +14,8 @@ import ShowCaseProducts2 from "../Componentes/Showcase/ShowCaseProducts2.jsx";
 import MeetLudique from "../Componentes/MeetLudique/MeetLudique.jsx";
 import PresentLudique from "../Componentes/PresentLudique/PresentLudique.jsx";
 import Social from "../Componentes/Social/Social.jsx";
+import Register from "../Componentes/Register/Register.jsx";
+import SummaryFooter from "../Componentes/SummaryFooter/SummaryFooter.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -101,6 +103,8 @@ const Home = () => {
         <MeetLudique />
         <PresentLudique />
         <Social />
+        <Register />
+        <SummaryFooter />
       </section>
     </Context.Provider>
   );

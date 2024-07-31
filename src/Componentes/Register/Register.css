@@ -1,0 +1,129 @@
+.container-register {
+  background-image: url(/public//img/imgCadastro.png);
+  background-color: #004581;
+  padding: 30px 41px 31px 40px;
+}
+
+.container-card-register {
+  padding: 32px 22px;
+  background-color: #ffffff;
+}
+
+.container-card-register-p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.container-card-register-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.container-card-register-header h2 {
+  font-family: Town Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.01em;
+  color: #121212;
+}
+
+.container-card-register-header p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #393939;
+}
+
+.container-card-register-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container-card-register-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-card-register-input-item {
+  border: 1px solid #9a9a9a;
+  width: 251px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: #f1f1f1;
+}
+
+.container-card-register-input-item::placeholder {
+  font-family: Roboto Flex;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+.container-card-register-check {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  gap: 16px;
+}
+
+.container-card-register-check-p1 input {
+  display: none;
+}
+
+.container-card-register-check-p1 label {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: center;
+}
+
+.container-card-register-check-p1 input + label:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid #121212;
+  border-radius: 1px;
+  display: inline-block;
+  background-color: #f1f1f1;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.container-card-register-check-p1 input:checked + label:before {
+  background-image: url(/public//img/iconCheck.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+}
+
+.container-card-register-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 167px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #004581;
+  border: 1px solid #004581;
+  font-family: LEMON MILK;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.21px;
+  text-align: center;
+  color: #ffffff;
+}

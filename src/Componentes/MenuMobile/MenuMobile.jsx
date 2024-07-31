@@ -1,7 +1,5 @@
 import "./MenuMobile.css";
 import UseContext from "../Hook/UseContext";
-import Data from "../Data/Data";
-import React, { useState } from "react";
 import ContentMenuMobile from "../ContentMenuMobile/ContentMenuMobile";
 import FooterMenuMobile from "../FooterMenuMobile/FooterMenuMobile";
 

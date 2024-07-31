@@ -1,4 +1,6 @@
 .container-social {
+  padding: 48px 0px 68px 0px;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -12,7 +14,7 @@
   grid-template-columns: repeat(3, auto);
   align-items: center;
   justify-content: center;
-  margin: 48px 0px 24px 0px;
+  padding-bottom: 24px;
   /* border-top: 1px solid #e7c367;
   transform: translateY(-50%); */
 }

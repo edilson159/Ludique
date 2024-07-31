@@ -2370,6 +2370,139 @@ const Data = [
       },
     ],
   },
+  {
+    cadastro: [
+      {
+        title: "FIQUE POR DENTRO DAS NOSSAS NOVIDADES",
+        description:
+          "Cadastre-se na nossa lista VIP e receba promoções e muito mais!",
+        button: "CADASTRAR",
+        link: "//",
+        img: "../img/imgCadastro.png",
+        icon: "../img/iconCheck.svg",
+        informations: [
+          {
+            input: "name",
+            placeholder: "Seu nome completo",
+          },
+          {
+            input: "e-mail",
+            placeholder: "Seu e-mail",
+          },
+          {
+            input: "checkbox",
+            label: "Menino",
+            id: "checkbox-1",
+          },
+          {
+            input: "checkbox",
+            label: "Menina",
+            id: "checkbox-2",
+          },
+          {
+            input: "checkbox",
+            label: "Ambos",
+            id: "checkbox-3",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    summaryFooter: [
+      {
+        img: "../img/imgLudiqueG.png",
+        icon: "../img/CaretDown.png",
+        title: "INSTITUCIONAL",
+        children: [
+          {
+            link: "//",
+            name: "Quem Somos",
+          },
+          {
+            link: "//",
+            name: "Nossas Lojas",
+          },
+          {
+            link: "//",
+            name: "Afiliados",
+          },
+          {
+            link: "//",
+            name: "Nosso Blog",
+          },
+          {
+            link: "//",
+            name: "Seja um Franqueado",
+          },
+          {
+            link: "//",
+            name: "Faça Parte da Equipe",
+          },
+        ],
+      },
+      {
+        title: "AJUDA E SUPORTE",
+        icon: "../img/CaretDown.png",
+        children: [
+          {
+            link: "//",
+            name: "Quem Somos",
+          },
+          {
+            link: "//",
+            name: "Nossas Lojas",
+          },
+          {
+            link: "//",
+            name: "Afiliados",
+          },
+          {
+            link: "//",
+            name: "Nosso Blog",
+          },
+          {
+            link: "//",
+            name: "Seja um Franqueado",
+          },
+          {
+            link: "//",
+            name: "Faça Parte da Equipe",
+          },
+        ],
+      },
+      {
+        title: "CONTATO",
+        icon: "../img/CaretDown.png",
+        children: [
+          {
+            link: "//",
+            name: "Quem Somos",
+          },
+          {
+            link: "//",
+            name: "Nossas Lojas",
+          },
+          {
+            link: "//",
+            name: "Afiliados",
+          },
+          {
+            link: "//",
+            name: "Nosso Blog",
+          },
+          {
+            link: "//",
+            name: "Seja um Franqueado",
+          },
+          {
+            link: "//",
+            name: "Faça Parte da Equipe",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default Data;
