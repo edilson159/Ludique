@@ -1,69 +1,44 @@
-.container-showcase-products {
+.container-showcase-products-2 {
   margin: 39px 0px 45px 0px;
 }
 
-.container-card-showcase-products-main {
+.container-card-showcase-products-2-main {
   padding: 0px 10px 0px 20px;
 }
 
-.container-card-showcase-products {
+.container-card-showcase-products-2 {
   background-color: #fff;
   width: 93% !important;
 }
 
-.container-card-showcase-products-header {
+.container-card-showcase-products-2-names {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
   justify-content: center;
+  gap: 30px;
+  border-top: 0.5px solid #b8993a;
+  border-bottom: 0.5px solid #b8993a;
+  padding: 6px 0px;
   margin-bottom: 24px;
 }
-
-.container-card-showcase-products-header-p1 {
+.container-card-showcase-products-2-names-main {
+  width: 90%;
   display: flex;
-  align-items: center;
-  gap: 12px;
+  justify-content: space-around;
+  gap: 30px;
 }
 
-.container-card-showcase-products-header-p1
-  .container-card-showcase-products-header-p1-img {
-  height: 10px;
-}
-
-.container-card-showcase-products-header-p1 .img-1 {
-  transform: rotate(180deg);
-}
-
-.container-card-showcase-products-header-p1-title {
+.container-card-showcase-products-2-names-item {
   font-family: LEMON MILK;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 43.22px;
+  line-height: 18.91px;
   letter-spacing: 0.06em;
   text-align: center;
+  color: #b8993a;
 }
 
-.container-card-showcase-products-header-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.container-card-showcase-products-header-buttons button {
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 14.06px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #626262;
-  background-color: #fff;
-  border-radius: 24px;
-  border: 0.5px solid #cacaca;
-  height: 28px;
-}
-
-.container-card-showcase-products-p1 button.slick-arrow.slick-next {
+.container-card-showcase-products-2-p1 button.slick-arrow.slick-next {
   position: absolute;
   z-index: 10000;
   background-image: url(/public/img/arrowRightProducts.png);
@@ -74,14 +49,14 @@
   transform: translate(0, -120%);
 }
 
-.container-card-showcase-products-p1 .slick-next::before {
+.container-card-showcase-products-2-p1 .slick-next::before {
   position: absolute;
   right: 10px;
   color: transparent;
   opacity: 0;
 }
 
-.container-card-showcase-products-p1 button.slick-arrow.slick-prev {
+.container-card-showcase-products-2-p1 button.slick-arrow.slick-prev {
   position: absolute;
   z-index: 10000;
   background-image: url(/public/img/arrowLeftProducts.png);
@@ -92,37 +67,37 @@
   transform: translate(0, -120%);
 }
 
-.container-card-showcase-products-p1 .slick-prev::before {
+.container-card-showcase-products-2-p1 .slick-prev::before {
   color: transparent;
   opacity: 0;
 }
 
-.container-card-showcase-products-p1 .slick-dots {
+.container-card-showcase-products-2-p1 .slick-dots {
   bottom: -27px;
 }
 
 .container-showcase-products
-  .container-card-showcase-products-p1
+  .container-card-showcase-products-2-p1
   .slick-dots
   li {
   margin: 0px;
 }
 
 .container-showcase-products
-  .container-card-showcase-products-p1
+  .container-card-showcase-products-2-p1
   .slick-dots.slick-active
   button::before {
   font-size: 10px !important ;
 }
 
-.container-card-showcase-products-icons {
+.container-card-showcase-products-2-icons {
   position: absolute;
   display: flex;
   align-items: center;
   width: 8%;
 }
 
-.container-card-showcase-products-logo-ludique {
+.container-card-showcase-products-2-logo-ludique {
   position: absolute;
   top: 9.33px;
   left: 8px;
@@ -134,7 +109,7 @@
   opacity: 0px;
 }
 
-.container-card-showcase-products-icon-heart {
+.container-card-showcase-products-2-icon-heart {
   position: absolute;
   top: 9.33px;
   right: 15px;
@@ -142,11 +117,11 @@
   height: 13.42px;
 }
 
-.container-card-showcase-products-img {
+.container-card-showcase-products-2-img {
   width: 100%;
 }
 
-.container-description {
+.container-description-2 {
   position: relative;
   left: 0px;
   display: flex;
@@ -158,7 +133,7 @@
   padding: 12px 9px 8px 9px;
 }
 
-.container-card-showcase-products h2 {
+.container-card-showcase-products-2 h2 {
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
@@ -167,13 +142,14 @@
   color: #121212;
 }
 
-.container-card-showcase-products-old-price-and-discount {
+.container-card-showcase-products-2-old-price-and-discount {
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
-.container-card-showcase-products-old-price-and-discount .container-old-price {
+.container-card-showcase-products-2-old-price-and-discount
+  .container-old-price {
   text-decoration: line-through;
   font-size: 12px;
   font-weight: 300;
@@ -182,7 +158,7 @@
   color: #626262;
 }
 
-.container-card-showcase-products-old-price-and-discount .container-discount {
+.container-card-showcase-products-2-old-price-and-discount .container-discount {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +167,9 @@
   background-color: #e7c367;
 }
 
-.container-discount p {
+.container-card-showcase-products-2-old-price-and-discount
+  .container-discount
+  p {
   font-size: 10px;
   font-weight: 500;
   line-height: 11.72px;
@@ -200,7 +178,7 @@
   padding: 4px;
 }
 
-.container-card-showcase-products-current-price {
+.container-card-showcase-products-2-current-price {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
@@ -208,7 +186,7 @@
   color: #121212;
 }
 
-.container-card-showcase-products-payment {
+.container-card-showcase-products-2-payment {
   font-size: 10px;
   font-weight: 300;
   line-height: 11.72px;
@@ -216,7 +194,7 @@
   color: #626262;
 }
 
-.container-card-showcase-products-button {
+.container-card-showcase-products-2-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +204,7 @@
   height: 36px;
 }
 
-.container-card-showcase-products-button a {
+.container-card-showcase-products-2-button a {
   font-size: 12px;
   font-weight: 500;
   line-height: 14.06px;
@@ -236,7 +214,7 @@
   text-decoration: none;
 }
 
-.container-card-showcase-products-name {
+.container-card-showcase-products-2-name {
   font-size: 12px;
   font-weight: 300;
   line-height: 14.06px;
@@ -246,7 +224,7 @@
 }
 
 @media (min-width: 1025px) {
-  .container-card-showcase-products-logo-ludique {
+  .container-card-showcase-products-2-logo-ludique {
     width: 72px;
     height: 20px;
   }

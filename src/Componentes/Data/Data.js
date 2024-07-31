@@ -2210,6 +2210,166 @@ const Data = [
       },
     ],
   },
+  {
+    SectionBrand: [
+      {
+        title: "NOSSAS MARCAS",
+        description: "Curadoria dos melhores designers e premium brands",
+        name: "VER TODAS AS NOSSAS MARCAS >",
+        icon: "../img/iconHeaderProducts.png",
+        imgs: [
+          {
+            img: "../img/imgMarcaLudique.png",
+          },
+          {
+            img: "../img/imgAdidas.png",
+          },
+          {
+            img: "../img/imgNike.png",
+          },
+          {
+            img: "../img/imgVans.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    showcaseProducts2: [
+      {
+        names: [
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "VER TODOS >",
+          },
+        ],
+        logo: "../img/logoLudiqueP.png",
+        img: "../img/imgProducts.png",
+        icon: "../img/iconHeartGrey.png",
+        title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+        oldPrice: "R$ 290,00",
+        currentPrice: "R$ 218,00",
+        button: "Adicionar à sacola",
+        link: "//",
+        payment: "ou em até 6x de R$ 52,90",
+        discount: "-10%",
+      },
+      {
+        logo: "../img/logoLudiqueP.png",
+        img: "../img/imgProducts.png",
+        icon: "../img/iconHeartGrey.png",
+        title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+        oldPrice: "R$ 290,00",
+        currentPrice: "R$ 218,00",
+        button: "Adicionar à sacola",
+        link: "//",
+        payment: "ou em até 6x de R$ 52,90",
+        discount: "-10%",
+      },
+      {
+        logo: "../img/logoLudiqueP.png",
+        img: "../img/imgProducts.png",
+        icon: "../img/iconHeartGrey.png",
+        title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+        oldPrice: "R$ 290,00",
+        currentPrice: "R$ 218,00",
+        button: "Adicionar à sacola",
+        link: "//",
+        payment: "ou em até 6x de R$ 52,90",
+        discount: "-10%",
+      },
+      {
+        logo: "../img/logoLudiqueP.png",
+        img: "../img/imgProducts.png",
+        icon: "../img/iconHeartGrey.png",
+        title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+        oldPrice: "R$ 290,00",
+        currentPrice: "R$ 218,00",
+        button: "Adicionar à sacola",
+        link: "//",
+        payment: "ou em até 6x de R$ 52,90",
+        discount: "-10%",
+      },
+      {
+        logo: "../img/logoLudiqueP.png",
+        img: "../img/imgProducts.png",
+        icon: "../img/iconHeartGrey.png",
+        title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
+        oldPrice: "R$ 290,00",
+        currentPrice: "R$ 218,00",
+        button: "Adicionar à sacola",
+        link: "//",
+        payment: "ou em até 6x de R$ 52,90",
+        discount: "-10%",
+      },
+    ],
+  },
+  {
+    meetLudique: [
+      {
+        title: "Conheça a Ludique",
+        img: "../img/imgMeet.png",
+        description:
+          'A Ludique et Badin surgiu em 2010, uma loja especializada em sapatos infantis, com marca própria e marcas internacionais. A grife, que traduzida ao pé da letra significa "Lúdico e Brincalhão", atende às mães que buscam para seus filhos e filhas produtos chiques e exclusivos, ligados à moda, mas que não descartam a delicadeza e inocência das crianças, nem o conforto e qualidade que elas precisam.',
+        name: "SABER MAIS",
+        link: "//",
+      },
+    ],
+  },
+  {
+    presentLudique: [
+      {
+        img: "../img/imgPresent.png",
+        title: "Dê um Ludique de presente",
+        description:
+          "Compre os melhores presentes e receba em casa no mesmo dia!",
+        link: "//",
+        button: "QUERO COMPRAR",
+      },
+    ],
+  },
+  {
+    social: [
+      {
+        icons: [
+          {
+            icon: "../img/iconSocial.png",
+          },
+          {
+            icon: "../img/iconInstagram1.png",
+          },
+        ],
+        title: "SIGA A GENTE",
+        link: "//",
+        button: "@ludiqueetbadin",
+        imgs: [
+          {
+            img: "../img/imgSocial1.png",
+          },
+          {
+            img: "../img/imgSocial2.png",
+          },
+          {
+            img: "../img/imgSocial3.png",
+          },
+          {
+            img: "../img/imgSocial4.png",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default Data;

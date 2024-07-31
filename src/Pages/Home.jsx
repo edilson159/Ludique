@@ -9,6 +9,11 @@ import ShowCaseProducts from "../Componentes/Showcase/ShowCaseProducts";
 import SectionBanner2 from "../Componentes/Sections/SectionBanner2.jsx";
 import SectionBanner3 from "../Componentes/Sections/SectionBanner3.jsx";
 import SectionExclusive from "../Componentes/Sections/SectionExclusive.jsx";
+import SectionBrand from "../Componentes/Sections/SectionBrand.jsx";
+import ShowCaseProducts2 from "../Componentes/Showcase/ShowCaseProducts2.jsx";
+import MeetLudique from "../Componentes/MeetLudique/MeetLudique.jsx";
+import PresentLudique from "../Componentes/PresentLudique/PresentLudique.jsx";
+import Social from "../Componentes/Social/Social.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -91,6 +96,11 @@ const Home = () => {
         <SectionBanner2 />
         <SectionBanner3 />
         <SectionExclusive />
+        <SectionBrand />
+        <ShowCaseProducts2 />
+        <MeetLudique />
+        <PresentLudique />
+        <Social />
       </section>
     </Context.Provider>
   );
