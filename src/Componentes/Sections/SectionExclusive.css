@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   padding: 63px 0px 62px 0px;
+  background-color: #ffffff;
 }
 
 .container-card-section-exclusive {
@@ -43,6 +44,7 @@
 
 .container-card-section-exclusive-img {
   position: relative;
+  border-radius: 7px;
 }
 
 .container-card-section-exclusive-button {
