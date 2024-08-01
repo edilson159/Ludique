@@ -1,6 +1,7 @@
 .container-present-ludique {
-  margin-top: 48px;
+  padding-top: 48px;
   width: 100%;
+  background-color: #f1f1f1;
 }
 
 .container-card-present-ludique {

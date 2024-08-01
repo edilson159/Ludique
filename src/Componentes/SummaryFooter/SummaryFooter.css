@@ -1,6 +1,6 @@
 .container-summary-footer {
   width: 100%;
-  margin-top: 50.43px;
+  margin-top: 79px;
   background-color: #f1f1f1;
 }
 
@@ -65,6 +65,17 @@
   gap: 24px;
 }
 
+.container-card-summary-footer-summary-item-and-img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #393939;
+  text-decoration: none;
+}
 .container-card-summary-footer-summary-item {
   font-size: 14px;
   font-weight: 400;
@@ -72,4 +83,13 @@
   text-align: left;
   color: #393939;
   text-decoration: none;
+}
+
+.conatiner-card-summary-footer-summary-item-span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #b8993a;
+  text-decoration: underline;
 }

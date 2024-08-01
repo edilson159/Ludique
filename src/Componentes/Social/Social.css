@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.line img {
+  width: 100%;
+}
+
 .container-card-social-header-item {
   width: 100%;
   display: flex;

@@ -2447,27 +2447,19 @@ const Data = [
         children: [
           {
             link: "//",
-            name: "Quem Somos",
+            name: "Central de Atendimento",
           },
           {
             link: "//",
-            name: "Nossas Lojas",
+            name: "Trocas e Devoluções",
           },
           {
             link: "//",
-            name: "Afiliados",
+            name: "Políticas de Privacidade",
           },
           {
             link: "//",
-            name: "Nosso Blog",
-          },
-          {
-            link: "//",
-            name: "Seja um Franqueado",
-          },
-          {
-            link: "//",
-            name: "Faça Parte da Equipe",
+            name: "Políticas de Entrega",
           },
         ],
       },
@@ -2477,27 +2469,106 @@ const Data = [
         children: [
           {
             link: "//",
-            name: "Quem Somos",
+            name: "(11) 94177-2644",
+            icon: "../img/iconWhatFooter.png",
           },
           {
             link: "//",
-            name: "Nossas Lojas",
+            name: "(11) 94177-2644",
+            icon: "../img/iconTeleFooter.png",
           },
           {
             link: "//",
-            name: "Afiliados",
+            name: "Horário de Atendimento: De 2ª à 6ª das 9:30h às 17:00h ou ",
+            span: "Fale  Conosco",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    payment: [
+      {
+        title: "FORMAS DE PAGAMENTO",
+        imgs: [
+          {
+            img: "../img/mercadoPago.png",
           },
           {
-            link: "//",
-            name: "Nosso Blog",
+            img: "../img/visa.png",
           },
           {
-            link: "//",
-            name: "Seja um Franqueado",
+            img: "../img/Mastercard.png",
           },
           {
-            link: "//",
-            name: "Faça Parte da Equipe",
+            img: "../img/hipercard.png",
+          },
+          {
+            img: "../img/pix.png",
+          },
+          {
+            img: "../img/AMEX.png",
+          },
+          {
+            img: "../img/DinersClub.png",
+          },
+          {
+            img: "../img/Elo.png",
+          },
+          {
+            img: "../img/boleto.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    security: [
+      {
+        title: "SEGURANÇA",
+        imgs: [
+          {
+            img: "../img/ebit.png",
+          },
+          {
+            img: "../img/siteSeguro.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    redeSocial: [
+      {
+        title: "Nos siga nas redes:",
+        imgs: [
+          {
+            img: "../img/iconFaceFooter.png",
+          },
+          {
+            img: "../img/iconInstaFooter.png",
+          },
+          {
+            img: "../img/iconYoutuFooter.png",
+          },
+          {
+            img: "../img/iconLinkeFooter.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    footer: [
+      {
+        description:
+          "© 2013 - 2019, Ludique et Badin. Todos os direitos reservados. LUDIQUE ET BADIN COMERCIO DE CALCADOS LTDA. CNPJ - 13.710.737/0005-73 Rua Padre João Manuel, 808, 1° andar. São Paulo, SP. CEP - 01411-000. TEL:(11)3060-4828",
+        icons: [
+          {
+            icon: "../img/iconWicomm.png",
+          },
+          {
+            icon: "../img/iconWake.png",
           },
         ],
       },

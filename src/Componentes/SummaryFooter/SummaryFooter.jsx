@@ -28,15 +28,28 @@ const SummaryFooter = () => {
                   />
                 </summary>
                 <div className="container-card-summary-footer-summary-itens">
-                  {children.map(({ name, link }, index) => (
-                    <a
-                      className="container-card-summary-footer-summary-item"
-                      key={index}
-                      href={link}
-                    >
-                      {name}
-                    </a>
-                  ))}
+                  {children.map(
+                    ({ name, link, icon, span }, index) =>
+                      name && (
+                        <a
+                          className={
+                            icon
+                              ? "container-card-summary-footer-summary-item-and-img"
+                              : "container-card-summary-footer-summary-item"
+                          }
+                          key={index}
+                          href={link}
+                        >
+                          {icon && <img src={icon} alt="" />}
+                          {name}{" "}
+                          {span && (
+                            <span className="conatiner-card-summary-footer-summary-item-span">
+                              {span}
+                            </span>
+                          )}
+                        </a>
+                      )
+                  )}
                 </div>
               </details>
             </div>

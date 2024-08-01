@@ -55,12 +55,9 @@ const Social = () => {
               {icons.map(
                 ({ icon }, index) =>
                   icon === "../img/iconSocial.png" && (
-                    <img
-                      className="container-card-social-icon"
-                      key={index}
-                      src={icon}
-                      alt=""
-                    />
+                    <div key={index} className="line">
+                      <img src={icon} alt="" />
+                    </div>
                   )
               )}
             </div>

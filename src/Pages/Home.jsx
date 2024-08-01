@@ -16,6 +16,10 @@ import PresentLudique from "../Componentes/PresentLudique/PresentLudique.jsx";
 import Social from "../Componentes/Social/Social.jsx";
 import Register from "../Componentes/Register/Register.jsx";
 import SummaryFooter from "../Componentes/SummaryFooter/SummaryFooter.jsx";
+import Payment from "../Componentes/Payment/Payment.jsx";
+import Security from "../Componentes/Security/Security.jsx";
+import RedeSocial from "../Componentes/RedeSocial/RedeSocial.jsx";
+import Footer from "../Componentes/Footer/Footer.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -105,6 +109,10 @@ const Home = () => {
         <Social />
         <Register />
         <SummaryFooter />
+        {showBlockMobile && <Payment />}
+        {showBlockMobile && <Security />}
+        {showBlockMobile && <RedeSocial />}
+        <Footer />
       </section>
     </Context.Provider>
   );

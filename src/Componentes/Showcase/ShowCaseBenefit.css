@@ -1,5 +1,9 @@
+.container-showcase-benefit {
+  background-color: #f1f1f1;
+}
+
 .container-card-showcase-benefit {
-  margin: 26px 16px;
+  padding: 26px 16px;
 }
 
 .container-card-showcase-benefit-item {
