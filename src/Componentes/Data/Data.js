@@ -2196,7 +2196,7 @@ const Data = [
             img: "../img/imgExclusivoLu.png",
           },
           {
-            img: "../img/imgBackgroundleft.png",
+            img: "../img/imgBackgroundLeft.png",
           },
           {
             img: "../img/imgBackgroundRight.png",
