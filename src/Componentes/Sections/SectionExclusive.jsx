@@ -11,7 +11,7 @@ const SectionExclusive = () => {
               img !== "../img/imgExclusivoLu.png" && (
                 <img
                   className={
-                    img === "../img/imgBackgroundleft.png"
+                    img === "../img/imgBackgroundLeft.png"
                       ? "img-background-left"
                       : "img-background-right"
                   }
