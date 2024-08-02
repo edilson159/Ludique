@@ -2574,6 +2574,75 @@ const Data = [
       },
     ],
   },
+  {
+    headerBenefitDesktop: [
+      {
+        title: "Frete grátis ",
+        span: "a partir de R$ 499,99",
+      },
+      {
+        title: "Troque sem custo",
+        span: "na loja física",
+      },
+      {
+        title: "Retire na loja",
+        span: "saiba como",
+      },
+      {
+        title: "1ª Troca grátis",
+        span: "saiba mais",
+      },
+    ],
+  },
+  {
+    headerDesktop: [
+      {
+        img: "../img/logoLudiqueW.png",
+        names: [
+          {
+            link: "//",
+            name: "Lançamentos",
+          },
+          {
+            link: "//",
+            name: "Meninos",
+          },
+          {
+            link: "//",
+            name: "Meninas",
+          },
+          {
+            link: "//",
+            name: "Marcas",
+          },
+          {
+            link: "//",
+            name: "Acessórios",
+          },
+          {
+            link: "//",
+            name: "Outlet",
+          },
+        ],
+        input: "search",
+        placeholder: "Digite aqui sua busca",
+        icons: [
+          {
+            icon: "../img/iconSearchW.png",
+          },
+          {
+            icon: "../img/iconPuppetW.png",
+          },
+          {
+            icon: "../img/iconHeartW.png",
+          },
+          {
+            icon: "../img/iconBagW.png",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default Data;

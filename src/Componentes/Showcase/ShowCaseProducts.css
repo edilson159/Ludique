@@ -17,12 +17,18 @@
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+  align-items: center;
   margin-bottom: 24px;
+}
+
+.container-card-showcase-products-header-body {
+  max-width: 520px;
 }
 
 .container-card-showcase-products-header-p1 {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
 }
 

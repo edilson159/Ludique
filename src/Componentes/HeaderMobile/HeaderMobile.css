@@ -85,4 +85,7 @@
   .container-header-mobile {
     display: none;
   }
+  .container-header-mobile-fixo {
+    display: none;
+  }
 }

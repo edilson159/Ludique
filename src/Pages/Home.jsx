@@ -20,6 +20,7 @@ import Payment from "../Componentes/Payment/Payment.jsx";
 import Security from "../Componentes/Security/Security.jsx";
 import RedeSocial from "../Componentes/RedeSocial/RedeSocial.jsx";
 import Footer from "../Componentes/Footer/Footer.jsx";
+import HeaderDesktop from "../Componentes/HeaderDesktop/HeaderDesktop.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -95,6 +96,7 @@ const Home = () => {
           rel="stylesheet"
         />
         {showBlockMobile && <HeaderMobile />}
+        {showBlockDesktop && <HeaderDesktop />}
         {showBlockMobile && <BannerMobile />}
         {showBlockMobile && <ShowCaseBenefit />}
         <SectionBanner />

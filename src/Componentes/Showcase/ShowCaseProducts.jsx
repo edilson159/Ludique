@@ -24,28 +24,30 @@ const ShowCaseProducts = () => {
                   className="container-card-showcase-products-header"
                   key={index}
                 >
-                  <div className="container-card-showcase-products-header-p1">
-                    <img
-                      className="container-card-showcase-products-header-p1-img img-1"
-                      src={icon}
-                      alt=""
-                    />
-                    <h1 className="container-card-showcase-products-header-p1-title">
-                      {title}
-                    </h1>
-                    <img
-                      className="container-card-showcase-products-header-p1-img img-2"
-                      src={icon}
-                      alt=""
-                    />
-                  </div>
-                  <div className="container-card-showcase-products-header-buttons">
-                    {buttons &&
-                      Data.find((e) => e.showcaseProductsAndBanner)
-                        .showcaseProductsAndBanner.find((e) => e.buttons)
-                        .buttons.map(({ button }, index) => (
-                          <button key={index}>{button}</button>
-                        ))}
+                  <div className="container-card-showcase-products-header-body">
+                    <div className="container-card-showcase-products-header-p1">
+                      <img
+                        className="container-card-showcase-products-header-p1-img img-1"
+                        src={icon}
+                        alt=""
+                      />
+                      <h1 className="container-card-showcase-products-header-p1-title">
+                        {title}
+                      </h1>
+                      <img
+                        className="container-card-showcase-products-header-p1-img img-2"
+                        src={icon}
+                        alt=""
+                      />
+                    </div>
+                    <div className="container-card-showcase-products-header-buttons">
+                      {buttons &&
+                        Data.find((e) => e.showcaseProductsAndBanner)
+                          .showcaseProductsAndBanner.find((e) => e.buttons)
+                          .buttons.map(({ button }, index) => (
+                            <button key={index}>{button}</button>
+                          ))}
+                    </div>
                   </div>
                 </div>
               )
