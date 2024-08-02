@@ -25,10 +25,11 @@
 
 .container-card-summary-footer-details {
   text-align: left;
-  margin: 0px 24px 24px 22px;
+  margin-bottom: 24px;
   position: relative;
   padding-bottom: 22.5px;
   border-bottom: 1px solid #cacaca;
+  width: 100%;
 }
 
 .container-card-summary-footer-details[open]
@@ -44,6 +45,7 @@
   line-height: 21.61px;
   text-align: left;
   color: #121212;
+  margin-left: 24px;
 }
 
 .container-card-summary-footer-details[open]
@@ -54,7 +56,7 @@
 .container-card-summary-footer-icon {
   position: absolute;
   top: 0px;
-  right: 4.5px;
+  right: 24px;
   transform: rotate(180deg);
 }
 
@@ -63,6 +65,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 24px;
+  margin-left: 24px;
 }
 
 .container-card-summary-footer-summary-item-and-img {
