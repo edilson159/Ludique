@@ -78,3 +78,71 @@
 .container-card-item-section-banner-img {
   width: 100%;
 }
+
+@media (min-width: 1025px) {
+  .container-section-banner {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .container-card-section-banner {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 1280px;
+  }
+
+  .container-card-item-section-banner-meninos
+    .container-card-item-section-banner-p1 {
+    right: 62px;
+  }
+
+  .container-card-item-section-banner-meninas
+    .container-card-item-section-banner-p1 {
+    left: 62px;
+  }
+
+  .container-card-item-section-banner-p1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    gap: 24px;
+    top: 98px;
+    color: #ffffff;
+  }
+
+  .container-card-item-section-banner-p1 h2 {
+    font-family: Sofia;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 66.19px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .container-card-item-section-banner-p1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .button {
+    background-color: #ffffff;
+    padding: 14.57px 22.42px;
+    border-radius: 24px;
+  }
+
+  .button a {
+    font-family: LEMON MILK;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.91px;
+    text-align: center;
+  }
+}

@@ -2643,6 +2643,16 @@ const Data = [
       },
     ],
   },
+  {
+    bannerDesktop: [
+      {
+        img: "../img/imgBannerDesktop.png",
+        title: "ATÉ 70%OFF",
+        button: "VER PRODUTOS",
+        link: "",
+      },
+    ],
+  },
 ];
 
 export default Data;

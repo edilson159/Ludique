@@ -21,6 +21,7 @@ import Security from "../Componentes/Security/Security.jsx";
 import RedeSocial from "../Componentes/RedeSocial/RedeSocial.jsx";
 import Footer from "../Componentes/Footer/Footer.jsx";
 import HeaderDesktop from "../Componentes/HeaderDesktop/HeaderDesktop.jsx";
+import BannerDesktop from "../Componentes/BannerDesktop/BannerDesktop.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -98,6 +99,7 @@ const Home = () => {
         {showBlockMobile && <HeaderMobile />}
         {showBlockDesktop && <HeaderDesktop />}
         {showBlockMobile && <BannerMobile />}
+        {showBlockDesktop && <BannerDesktop />}
         {showBlockMobile && <ShowCaseBenefit />}
         <SectionBanner />
         <ShowCaseProducts />

@@ -40,3 +40,9 @@
   border-radius: 100%;
   background-color: #004581;
 }
+
+@media (min-width: 1025px) {
+  .container-showcase-benefit {
+    display: none;
+  }
+}
