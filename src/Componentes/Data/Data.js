@@ -2597,7 +2597,14 @@ const Data = [
   {
     headerDesktop: [
       {
-        img: "../img/logoLudiqueW.png",
+        images: [
+          {
+            img: "../img/logoLudiqueW.png",
+          },
+          {
+            img: "../img/logoLudique.png",
+          },
+        ],
         names: [
           {
             link: "//",
@@ -2649,7 +2656,25 @@ const Data = [
         img: "../img/imgBannerDesktop.png",
         title: "ATÉ 70%OFF",
         button: "VER PRODUTOS",
-        link: "",
+        link: "//",
+      },
+      {
+        img: "../img/imgBannerDesktop.png",
+        title: "ATÉ 70%OFF",
+        button: "VER PRODUTOS",
+        link: "//",
+      },
+      {
+        img: "../img/imgBannerDesktop.png",
+        title: "ATÉ 70%OFF",
+        button: "VER PRODUTOS",
+        link: "//",
+      },
+      {
+        img: "../img/imgBannerDesktop.png",
+        title: "ATÉ 70%OFF",
+        button: "VER PRODUTOS",
+        link: "//",
       },
     ],
   },

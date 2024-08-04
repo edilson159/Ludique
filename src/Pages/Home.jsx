@@ -28,7 +28,29 @@ const Home = () => {
   const [title, setTitle] = useState(false);
   const [actived, setActived] = useState(false);
 
+  const [over, setOver] = useState(true);
+
   const [showBlockMobile, setShowBlockMobile] = useState(true);
+
+  const [scrolled, setScroulled] = useState(false);
+
+  useEffect(() => {
+    const handleScroull = () => {
+      if (window.scrollY > 40) {
+        setScroulled(true);
+        setOver(false);
+      } else {
+        setScroulled(false);
+        setOver(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroull);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroull);
+    };
+  }, []);
 
   useEffect(() => {
     const handleResize1 = () => {
@@ -86,6 +108,9 @@ const Home = () => {
         actived,
         setActived,
         showBlockDesktop,
+        scrolled,
+        setOver,
+        over,
       }}
     >
       {" "}

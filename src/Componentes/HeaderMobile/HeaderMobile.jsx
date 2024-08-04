@@ -1,30 +1,11 @@
-import { useEffect, useState } from "react";
 import Data from "../Data/Data";
 import "./HeaderMobile.css";
 import MenuMobile from "../MenuMobile/MenuMobile";
 import HeaderBenefitMobile from "../HeaderBenefit/HeaderBenefitMobile";
+import UseContext from "../Hook/UseContext";
 
 const HeaderMobile = () => {
-  const [over, setOver] = useState(true);
-  const [scrolled, setScroulled] = useState(false);
-
-  useEffect(() => {
-    const handleScroull = () => {
-      if (window.scrollY > 40) {
-        setScroulled(true);
-        setOver(false);
-      } else {
-        setScroulled(false);
-        setOver(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroull);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroull);
-    };
-  }, []);
+  const { scrolled, setOver, over } = UseContext();
 
   function togleOver() {
     setOver(!over);

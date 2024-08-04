@@ -8,6 +8,24 @@
   width: 100%;
 }
 
+.header-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1280px;
+}
+.header-desktop-fixo {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  z-index: 1000000;
+  background-color: #ffffffbf;
+}
+
 .container-card-header-desktop {
   display: flex;
   align-items: center;
