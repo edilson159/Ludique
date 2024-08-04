@@ -101,3 +101,9 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 1025px) {
+  .container-banner-desktop {
+    display: none;
+  }
+}

@@ -85,3 +85,9 @@
   justify-content: space-around;
   width: 103.75px;
 }
+
+@media (max-width: 1025px) {
+  .container-header-desktop {
+    display: none;
+  }
+}
