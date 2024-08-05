@@ -1,7 +1,6 @@
 import Data from "../Data/Data";
 import "./HeaderMobile.css";
 import MenuMobile from "../MenuMobile/MenuMobile";
-import HeaderBenefitMobile from "../HeaderBenefit/HeaderBenefitMobile";
 import UseContext from "../Hook/UseContext";
 
 const HeaderMobile = () => {
@@ -18,7 +17,6 @@ const HeaderMobile = () => {
         scrolled ? "container-header-mobile-fixo" : "container-header-mobile"
       }
     >
-      <HeaderBenefitMobile />
       {Data.find((e) => e.headerMobile).headerMobile.map(
         ({ images, icons }, index) => (
           <div className="container-card-header-mobile" key={index}>

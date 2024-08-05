@@ -22,13 +22,15 @@ import RedeSocial from "../Componentes/RedeSocial/RedeSocial.jsx";
 import Footer from "../Componentes/Footer/Footer.jsx";
 import HeaderDesktop from "../Componentes/HeaderDesktop/HeaderDesktop.jsx";
 import BannerDesktop from "../Componentes/BannerDesktop/BannerDesktop.jsx";
+import HeaderBenefitDesktop from "../Componentes/HeaderBenefitDesktop/HeaderBenefitDesktop.jsx";
+import HeaderBenefitMobile from "../Componentes/HeaderBenefit/HeaderBenefitMobile.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState(false);
   const [actived, setActived] = useState(false);
 
-  const [over, setOver] = useState(true);
+  const [over, setOver] = useState(false);
 
   const [showBlockMobile, setShowBlockMobile] = useState(true);
 
@@ -38,10 +40,10 @@ const Home = () => {
     const handleScroull = () => {
       if (window.scrollY > 40) {
         setScroulled(true);
-        setOver(false);
+        setOver(true);
       } else {
         setScroulled(false);
-        setOver(true);
+        setOver(false);
       }
     };
 
@@ -108,6 +110,7 @@ const Home = () => {
         actived,
         setActived,
         showBlockDesktop,
+        setScroulled,
         scrolled,
         setOver,
         over,
@@ -121,6 +124,8 @@ const Home = () => {
           href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
           rel="stylesheet"
         />
+        {showBlockDesktop && <HeaderBenefitDesktop />}
+        {showBlockMobile && <HeaderBenefitMobile />}
         {showBlockMobile && <HeaderMobile />}
         {showBlockDesktop && <HeaderDesktop />}
         {showBlockMobile && <BannerMobile />}

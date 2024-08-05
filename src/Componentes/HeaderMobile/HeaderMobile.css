@@ -1,9 +1,11 @@
 .container-header-mobile {
   display: flex;
+  position: fixed;
   flex-direction: column;
   gap: 8px;
-  background-color: #ffcf7d;
+  z-index: 100000000000;
   width: 100%;
+  top: 40px;
 }
 
 .container-header-mobile-fixo {
@@ -13,6 +15,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  background-color: #f8f8f8;
   width: 100%;
 }
 
@@ -20,6 +23,10 @@
   display: flex;
   width: 100%;
   max-width: 1280px;
+}
+
+.container-header-mobile-fixo .container-card-header-mobile {
+  padding: 20.91px 0px;
 }
 
 .container-card-header-mobile-p1 {
@@ -52,6 +59,10 @@
 .container-card-header-mobile-icons .icon-bag {
   width: 17px;
   height: 19px;
+}
+
+.container-header-mobile-fixo .container-card-header-mobile-input {
+  display: none;
 }
 
 .container-card-header-mobile-input {

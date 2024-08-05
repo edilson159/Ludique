@@ -2,28 +2,48 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  position: absolute;
+  position: fixed;
   z-index: 10000000;
   width: 100%;
+  top: 40px;
+  height: 97px;
+}
+
+.header-desktop-fixo {
+  position: fixed;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1000000;
+  background-color: #f8f8f8;
+  top: 0px;
+}
+
+.header-desktop-active {
+  width: 100%;
+  background-color: #f8f8f8;
 }
 
 .header-desktop {
+  position: fixed;
+  top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
   max-width: 1280px;
 }
-.header-desktop-fixo {
+
+.header-desktop-over {
   position: fixed;
   top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  z-index: 1000000;
-  background-color: #ffffffbf;
+  max-width: 1280px;
 }
 
 .container-card-header-desktop {
@@ -47,6 +67,10 @@
   padding: 11.5px 0px;
 }
 
+.header-desktop-fixo .container-card-header-desktop-names-item {
+  color: #626262;
+}
+
 .container-card-header-desktop-names-item {
   font-size: 12px;
   font-weight: 400;
@@ -56,6 +80,10 @@
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.header-desktop-fixo .container-card-header-desktop-input {
+  border: 1px solid #9a9a9a;
 }
 
 .container-card-header-desktop-input {
@@ -69,6 +97,9 @@
   border-radius: 32px;
   border: 1px solid #f1f1f1;
 }
+.header-desktop-fixo .container-card-header-desktop-input input::placeholder {
+  color: #626262;
+}
 
 .container-card-header-desktop-input input::placeholder {
   font-size: 14px;
@@ -76,7 +107,11 @@
   line-height: 16.41px;
   letter-spacing: 0.06em;
   text-align: left;
-  color: #fff;
+  color: #f1f1f1;
+}
+
+.header-desktop-fixo .container-card-header-desktop-icons {
+  filter: invert(1);
 }
 
 .container-card-header-desktop-icons {

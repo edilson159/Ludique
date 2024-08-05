@@ -1,10 +1,13 @@
 .container-header-benefit-desktop {
+  position: absolute;
+  top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 9.5px 0px;
   width: 100%;
   background-color: #b8993a;
+  z-index: 100000;
 }
 
 .container-card-header-benefit-desktop {
@@ -43,4 +46,10 @@
   font-weight: 400;
   line-height: 16.93px;
   text-align: left;
+}
+
+@media (max-width: 1025px) {
+  .container-header-benefit-desktop {
+    display: none;
+  }
 }
