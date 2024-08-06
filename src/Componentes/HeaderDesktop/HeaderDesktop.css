@@ -5,45 +5,37 @@
   position: fixed;
   z-index: 10000000;
   width: 100%;
-  top: 40px;
-  height: 97px;
 }
 
 .header-desktop-fixo {
   position: fixed;
-  height: 97px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   z-index: 1000000;
-  background-color: #f8f8f8;
   top: 0px;
 }
 
 .header-desktop-active {
   width: 100%;
   background-color: #f8f8f8;
+  height: 97px;
+  top: 0px;
 }
 
 .header-desktop {
-  position: fixed;
-  top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  max-width: 1280px;
 }
 
 .header-desktop-over {
-  position: fixed;
-  top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  max-width: 1280px;
 }
 
 .container-card-header-desktop {
@@ -71,6 +63,10 @@
   color: #626262;
 }
 
+.header-desktop-active .container-card-header-desktop-names-item {
+  color: #626262;
+}
+
 .container-card-header-desktop-names-item {
   font-size: 12px;
   font-weight: 400;
@@ -83,6 +79,10 @@
 }
 
 .header-desktop-fixo .container-card-header-desktop-input {
+  border: 1px solid #9a9a9a;
+}
+
+.header-desktop-active .container-card-header-desktop-input {
   border: 1px solid #9a9a9a;
 }
 
@@ -101,6 +101,10 @@
   color: #626262;
 }
 
+.header-desktop-active .container-card-header-desktop-input input::placeholder {
+  color: #626262;
+}
+
 .container-card-header-desktop-input input::placeholder {
   font-size: 14px;
   font-weight: 400;
@@ -111,6 +115,10 @@
 }
 
 .header-desktop-fixo .container-card-header-desktop-icons {
+  filter: invert(1);
+}
+
+.header-desktop-active .container-card-header-desktop-icons {
   filter: invert(1);
 }
 

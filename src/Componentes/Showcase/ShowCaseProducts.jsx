@@ -118,13 +118,15 @@ const ShowCaseProducts = () => {
                 )}
             </Slider>
           </div>
-          <p className="container-card-showcase-products-name">
-            {
-              Data.find(
-                (e) => e.showcaseProductsAndBanner
-              ).showcaseProductsAndBanner.find((e) => e.name).name
-            }
-          </p>
+          <div className="container-card-showcase-products-name">
+            <p className="container-card-showcase-products-name-item">
+              {
+                Data.find(
+                  (e) => e.showcaseProductsAndBanner
+                ).showcaseProductsAndBanner.find((e) => e.name).name
+              }
+            </p>
+          </div>
         </div>
       </div>
     </section>

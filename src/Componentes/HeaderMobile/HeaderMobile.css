@@ -2,10 +2,10 @@
   display: flex;
   position: fixed;
   flex-direction: column;
+  justify-content: center;
   gap: 8px;
   z-index: 100000000000;
   width: 100%;
-  top: 40px;
 }
 
 .container-header-mobile-fixo {
@@ -17,6 +17,26 @@
   gap: 8px;
   background-color: #f8f8f8;
   width: 100%;
+}
+
+.container-card-header-mobile-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13.86px;
+  padding: 20.43px 0px 16px 0px;
+  width: 100%;
+}
+
+.container-card-header-mobile-main-active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13.86px;
+  width: 100%;
+  background-color: #f8f8f8;
 }
 
 .container-card-header-mobile {

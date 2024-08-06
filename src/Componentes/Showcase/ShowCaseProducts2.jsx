@@ -6,10 +6,20 @@ const ShowCaseProducts2 = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
   return (
     <section className="container-showcase-products-2">
@@ -101,12 +111,14 @@ const ShowCaseProducts2 = () => {
             .names.map(
               ({ name }, index) =>
                 name === "VER TODOS >" && (
-                  <p
+                  <div
                     key={index}
                     className="container-card-showcase-products-2-name"
                   >
-                    {name}
-                  </p>
+                    <p className="container-card-showcase-products-2-name-item">
+                      {name}
+                    </p>
+                  </div>
                 )
             )}
         </div>

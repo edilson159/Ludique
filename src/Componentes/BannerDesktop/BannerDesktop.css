@@ -16,6 +16,7 @@
   background-image: url(/public/img/leftArrow.png);
   background-repeat: no-repeat;
   background-size: 10.3px;
+  background-position: center;
 }
 .container-banner-desktop .slick-next::before {
   color: transparent;
@@ -30,6 +31,7 @@
   background-image: url(/public/img/rigthArrow.png);
   background-repeat: no-repeat;
   background-size: 10.3px;
+  background-position: center;
 }
 
 .container-banner-desktop .slick-dots {

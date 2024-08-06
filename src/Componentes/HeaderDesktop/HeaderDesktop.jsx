@@ -3,13 +3,12 @@ import UseContext from "../Hook/UseContext";
 import "./HeaderDesktop.css";
 
 const HeaderDesktop = () => {
-  const { setScroulled, scrolled, setOver, over } = UseContext();
+  const { scrolled, setOver, over } = UseContext();
 
   function togleOver() {
     if (window.scrollY > 40) {
-      setOver(!over);
+      setOver(over);
     } else {
-      setScroulled(!scrolled);
       setOver(!over);
     }
   }
@@ -20,7 +19,9 @@ const HeaderDesktop = () => {
       onMouseLeave={togleOver}
       className={scrolled ? "header-desktop-fixo" : "container-header-desktop"}
     >
-      <div className={over ? "header-desktop-active" : ""}>
+      <div
+        className={over ? "header-desktop-active" : "header-desktop-notActive"}
+      >
         <div className={over ? "header-desktop-over" : "header-desktop"}>
           {Data.find((e) => e.headerDesktop).headerDesktop.map(
             ({ images, names, icons, input, placeholder }, index) => (

@@ -3,8 +3,8 @@
   background-color: #f1f1f1;
 }
 
-.container-card-showcase-products-2-main {
-  padding: 0px 10px 0px 20px;
+.container-card-showcase-products-2-p1 {
+  margin-left: 34px;
 }
 
 .container-card-showcase-products-2 {
@@ -44,7 +44,7 @@
   z-index: 10000;
   background-image: url(/public/img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: -10px;
+  right: 8px;
   height: 30px;
   background-size: 10px;
   transform: translate(0, -120%);
@@ -74,6 +74,8 @@
 }
 
 .container-card-showcase-products-2-p1 .slick-dots {
+  display: flex !important;
+  justify-content: center !important;
   bottom: -27px;
 }
 
@@ -102,12 +104,9 @@
   position: absolute;
   top: 9.33px;
   left: 8px;
-  width: 39px;
-  height: 10.86px;
+  width: 20%;
   top: 8px;
   left: 6px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .container-card-showcase-products-2-icon-heart {
@@ -216,6 +215,11 @@
 }
 
 .container-card-showcase-products-2-name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container-card-showcase-products-2-name-item {
   font-size: 12px;
   font-weight: 300;
   line-height: 14.06px;
@@ -225,8 +229,18 @@
 }
 
 @media (min-width: 1025px) {
+  .container-card-showcase-products-2-icons {
+    width: 6.5%;
+  }
   .container-card-showcase-products-2-logo-ludique {
     width: 72px;
     height: 20px;
+  }
+
+  .container-card-showcase-products-2-name {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    width: unset;
   }
 }

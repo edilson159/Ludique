@@ -70,12 +70,16 @@
   height: 28px;
 }
 
+.container-card-showcase-products-p1 {
+  padding-left: 13px;
+}
+
 .container-card-showcase-products-p1 button.slick-arrow.slick-next {
   position: absolute;
   z-index: 10000;
   background-image: url(/public/img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: -6px;
+  right: 1%;
   height: 30px;
   background-size: 10px;
   transform: translate(0, -120%);
@@ -140,7 +144,6 @@
   top: 8px;
   left: 6px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .container-card-showcase-products-icon-heart {
@@ -246,6 +249,11 @@
 }
 
 .container-card-showcase-products-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-card-showcase-products-name-item {
   font-size: 12px;
   font-weight: 300;
   line-height: 14.06px;
@@ -255,8 +263,84 @@
 }
 
 @media (min-width: 1025px) {
+  .container-showcase-products {
+    padding: 0px;
+  }
+  .container-card-showcase-products-header {
+    display: none;
+  }
   .container-card-showcase-products-logo-ludique {
     width: 72px;
     height: 20px;
+  }
+
+  .container-card-showcase-products {
+    height: 513px;
+  }
+
+  .container-card-showcase-products-p1 button.slick-arrow.slick-prev {
+    left: -44px;
+  }
+  .container-card-showcase-products-p1 button.slick-arrow.slick-next {
+    right: -26px;
+  }
+
+  .container-card-showcase-products h2 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+
+  .container-description {
+    width: unset;
+  }
+
+  .container-card-showcase-products-old-price-and-discount
+    .container-old-price {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-current-price {
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-payment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-button {
+    width: 100%;
+  }
+
+  .container-card-showcase-products-button a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .container-card-showcase-products-p1 .slick-dots {
+    position: absolute;
+    left: -63px;
+    width: unset;
+  }
+
+  .container-card-showcase-products-name {
+    display: flex;
+    position: absolute;
+    left: -35px;
   }
 }

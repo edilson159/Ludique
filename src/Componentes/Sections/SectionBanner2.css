@@ -50,3 +50,31 @@
 .container-card-section-banner-2-disnei.button-item {
   color: #12026d;
 }
+
+
+@media (min-width:1025px) {
+  .container-section-banner-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    
+  }
+  
+  .container-card-section-banner-2-main {
+    display: flex;
+    max-width: 1280px;
+    gap: 24px;
+    padding: 0px 40px 32px 40px ;
+    width: 100%;
+  }
+
+  .button-item {
+    font-family: LEMON MILK;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.91px;
+    text-align: center;
+  
+  }
+}

@@ -1,14 +1,10 @@
 .container-header-benefit-mobile {
-  position: absolute;
-  z-index: 100000;
-  top: 0px;
   display: flex;
   justify-content: center;
   width: 100%;
   background: linear-gradient(0deg, #b8993a, #b8993a),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   padding: 11px 0px;
-  margin-bottom: 4px;
 }
 
 .container-card-item-header-benefit-mobile {

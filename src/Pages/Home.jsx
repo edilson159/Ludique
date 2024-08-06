@@ -24,6 +24,7 @@ import HeaderDesktop from "../Componentes/HeaderDesktop/HeaderDesktop.jsx";
 import BannerDesktop from "../Componentes/BannerDesktop/BannerDesktop.jsx";
 import HeaderBenefitDesktop from "../Componentes/HeaderBenefitDesktop/HeaderBenefitDesktop.jsx";
 import HeaderBenefitMobile from "../Componentes/HeaderBenefit/HeaderBenefitMobile.jsx";
+import ShowcaseAndBanner from "../Componentes/ShowcaseAndBanner/ShowcaseAndBanner.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -124,15 +125,18 @@ const Home = () => {
           href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
           rel="stylesheet"
         />
-        {showBlockDesktop && <HeaderBenefitDesktop />}
-        {showBlockMobile && <HeaderBenefitMobile />}
-        {showBlockMobile && <HeaderMobile />}
-        {showBlockDesktop && <HeaderDesktop />}
-        {showBlockMobile && <BannerMobile />}
-        {showBlockDesktop && <BannerDesktop />}
-        {showBlockMobile && <ShowCaseBenefit />}
+        {showBlockMobile && <HeaderBenefitDesktop />}
+        {showBlockDesktop && <HeaderBenefitMobile />}
+        {showBlockDesktop && <HeaderMobile />}
+        {showBlockMobile && <HeaderDesktop />}
+        {showBlockDesktop && <BannerMobile />}
+        {showBlockMobile && <BannerDesktop />}
+        {showBlockDesktop && <ShowCaseBenefit />}
         <SectionBanner />
-        <ShowCaseProducts />
+        <ShowcaseAndBanner />
+        <div className="container-showcase">
+          {showBlockMobile && <ShowCaseProducts />}
+        </div>
         <SectionBanner2 />
         <SectionBanner3 />
         <SectionExclusive />
@@ -143,9 +147,9 @@ const Home = () => {
         <Social />
         <Register />
         <SummaryFooter />
-        {showBlockMobile && <Payment />}
-        {showBlockMobile && <Security />}
-        {showBlockMobile && <RedeSocial />}
+        {showBlockDesktop && <Payment />}
+        {showBlockDesktop && <Security />}
+        {showBlockDesktop && <RedeSocial />}
         <Footer />
       </section>
     </Context.Provider>
