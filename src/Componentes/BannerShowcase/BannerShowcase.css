@@ -1,1 +1,9 @@
+.container-banner-showcase {
+    width: 90%;
+}
 
+.container-banner-showcase-img {
+    min-width:450px ;
+    max-width:519px ;
+    width: 100%;
+}

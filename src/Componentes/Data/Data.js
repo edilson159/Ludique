@@ -2048,6 +2048,18 @@ const Data = [
         button: "VER PRODUTOS",
         img: "../img/imgBannerMenina.png",
       },
+      // {
+      //   title: "Meninos",
+      //   description: "Encontre todos os estilos para o seu pequeno",
+      //   button: "VER PRODUTOS",
+      //   img: "../img/imgBannerMenino.png",
+      // },
+      // {
+      //   title: "Meninas",
+      //   description: "Encontre todos os estilos para a sua pequena",
+      //   button: "VER PRODUTOS",
+      //   img: "../img/imgBannerMenina.png",
+      // },
     ],
   },
   {

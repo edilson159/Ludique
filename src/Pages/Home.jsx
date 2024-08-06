@@ -25,6 +25,7 @@ import BannerDesktop from "../Componentes/BannerDesktop/BannerDesktop.jsx";
 import HeaderBenefitDesktop from "../Componentes/HeaderBenefitDesktop/HeaderBenefitDesktop.jsx";
 import HeaderBenefitMobile from "../Componentes/HeaderBenefit/HeaderBenefitMobile.jsx";
 import ShowcaseAndBanner from "../Componentes/ShowcaseAndBanner/ShowcaseAndBanner.jsx";
+import SectionBanner3Desk from "../Componentes/Sections/SectionBanner3Desk.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -138,7 +139,8 @@ const Home = () => {
           {showBlockMobile && <ShowCaseProducts />}
         </div>
         <SectionBanner2 />
-        <SectionBanner3 />
+        { showBlockMobile && <SectionBanner3 />}
+        { showBlockDesktop && <SectionBanner3Desk/>}
         <SectionExclusive />
         <SectionBrand />
         <ShowCaseProducts2 />

@@ -1,7 +1,9 @@
 import Data from "../Data/Data";
+import UseContext from "../Hook/UseContext";
 import "./SectionBanner.css";
 
 const SectionBanner = () => {
+  const { showBlockDesktop } = UseContext()
   return (
     <section className="container-section-banner">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +19,8 @@ const SectionBanner = () => {
         rel="stylesheet"
       />
       <div className="container-card-section-banner">
-        {Data.find((e) => e.sectionBanner).sectionBanner.map(
+
+        {   Data.find((e) => e.sectionBanner).sectionBanner.slice(0, 2).map(
           ({ title, description, img, button }, index) => (
             <div
               className={
@@ -49,7 +52,9 @@ const SectionBanner = () => {
               </div>
             </div>
           )
-        )}
+        ) }
+      
+      
       </div>
     </section>
   );

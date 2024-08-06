@@ -133,6 +133,7 @@
   display: flex;
   align-items: center;
   width: 8%;
+  top: 0px;
 }
 
 .container-card-showcase-products-logo-ludique {
@@ -275,14 +276,17 @@
   }
 
   .container-card-showcase-products {
-    height: 513px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 444px;
   }
 
   .container-card-showcase-products-p1 button.slick-arrow.slick-prev {
-    left: -44px;
+    left: -40px;
   }
   .container-card-showcase-products-p1 button.slick-arrow.slick-next {
-    right: -26px;
+    right: -25px;
   }
 
   .container-card-showcase-products h2 {

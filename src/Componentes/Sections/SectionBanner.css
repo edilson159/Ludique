@@ -95,7 +95,7 @@
 
   .container-card-item-section-banner-meninos
     .container-card-item-section-banner-p1 {
-    right: 62px;
+    right: 7%;
   }
 
   .container-card-item-section-banner-meninas
@@ -108,10 +108,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 204px;
     text-align: center;
     gap: 24px;
-    top: 98px;
+    top:15%;
     color: #ffffff;
   }
 

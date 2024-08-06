@@ -44,3 +44,9 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (min-width:1025px) {
+  .container-section-banner-3 {
+    display: none;
+  }
+}
