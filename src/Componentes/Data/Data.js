@@ -2076,7 +2076,7 @@ const Data = [
             button: "1-3 anos",
           },
           {
-            button: "1-3 anos",
+            button: "4-10 anos",
           },
           {
             button: "10-14 anos",
@@ -2086,7 +2086,7 @@ const Data = [
       {
         showcaseProducts: [
           {
-            logo: "../img/logoLudiqueP.png",
+            logo: "../img/LogoLudiqueP.png",
             img: "../img/imgProducts.png",
             icon: "../img/iconHeartGrey.png",
             title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2098,7 +2098,7 @@ const Data = [
             discount: "-10%",
           },
           {
-            logo: "../img/logoLudiqueP.png",
+            logo: "../img/LogoLudiqueP.png",
             img: "../img/imgProducts.png",
             icon: "../img/iconHeartGrey.png",
             title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2110,7 +2110,7 @@ const Data = [
             discount: "-10%",
           },
           {
-            logo: "../img/logoLudiqueP.png",
+            logo: "../img/LogoLudiqueP.png",
             img: "../img/imgProducts.png",
             icon: "../img/iconHeartGrey.png",
             title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2122,7 +2122,7 @@ const Data = [
             discount: "-10%",
           },
           {
-            logo: "../img/logoLudiqueP.png",
+            logo: "../img/LogoLudiqueP.png",
             img: "../img/imgProducts.png",
             icon: "../img/iconHeartGrey.png",
             title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2134,7 +2134,7 @@ const Data = [
             discount: "-10%",
           },
           {
-            logo: "../img/logoLudiqueP.png",
+            logo: "../img/LogoLudiqueP.png",
             img: "../img/imgProducts.png",
             icon: "../img/iconHeartGrey.png",
             title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2266,7 +2266,7 @@ const Data = [
             name: "VER TODOS >",
           },
         ],
-        logo: "../img/logoLudiqueP.png",
+        logo: "../img/LogoLudiqueP.png",
         img: "../img/imgProducts.png",
         icon: "../img/iconHeartGrey.png",
         title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2278,7 +2278,7 @@ const Data = [
         discount: "-10%",
       },
       {
-        logo: "../img/logoLudiqueP.png",
+        logo: "../img/LogoLudiqueP.png",
         img: "../img/imgProducts.png",
         icon: "../img/iconHeartGrey.png",
         title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2290,7 +2290,7 @@ const Data = [
         discount: "-10%",
       },
       {
-        logo: "../img/logoLudiqueP.png",
+        logo: "../img/LogoLudiqueP.png",
         img: "../img/imgProducts.png",
         icon: "../img/iconHeartGrey.png",
         title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2302,7 +2302,7 @@ const Data = [
         discount: "-10%",
       },
       {
-        logo: "../img/logoLudiqueP.png",
+        logo: "../img/LogoLudiqueP.png",
         img: "../img/imgProducts.png",
         icon: "../img/iconHeartGrey.png",
         title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
@@ -2314,7 +2314,7 @@ const Data = [
         discount: "-10%",
       },
       {
-        logo: "../img/logoLudiqueP.png",
+        logo: "../img/LogoLudiqueP.png",
         img: "../img/imgProducts.png",
         icon: "../img/iconHeartGrey.png",
         title: "TÊNIS INFANTIL BY 3 LITTLE STARS",
