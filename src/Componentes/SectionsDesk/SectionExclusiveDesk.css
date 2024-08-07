@@ -1,0 +1,109 @@
+.container-secion-exclusive-desk {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 79px 0px 96px 0px ;
+}
+
+.container-card-section-exclusive-desk {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0px 71px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.container-section-exclusive-desk-icon-1 {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0px ;
+    right: 0px;
+}
+.container-section-exclusive-desk-icon-2 {
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+}
+
+.container-card-section-exclusive-desk-p1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ justify-content: center;
+ margin: 40px 0px ;
+}
+
+.container-section-exclusive-desk-img {
+
+}
+
+.container-section-exclusive-desk-img-item {
+    width: 100%;
+}
+
+.container-card-section-exclusive-desk-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card-section-exclusive-desk-description-p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 451px;
+    margin-left: 56px;
+}
+
+.container-section-exclusive-desk-title {
+    font-family: LEMON MILK;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.82px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #121212;
+}
+.container-section-exclusive-desk-span {
+    font-family: LEMON MILK;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.82px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color:#B8993A ;
+}
+
+.container-section-exclusive-desk-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+}
+
+.container-section-exclusive-desk-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 274px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 32px;
+    background-color: #004581;
+}
+
+.container-section-exclusive-desk-button-item {
+    font-family: LEMON MILK;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.61px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}

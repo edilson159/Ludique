@@ -79,3 +79,10 @@
   bottom: 21.97px;
   right: 0px;
 }
+
+
+@media (min-width:1025px) {
+  .container-section-exclusive {
+    display: none;
+  }
+}

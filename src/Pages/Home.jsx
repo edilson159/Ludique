@@ -25,7 +25,8 @@ import BannerDesktop from "../Componentes/BannerDesktop/BannerDesktop.jsx";
 import HeaderBenefitDesktop from "../Componentes/HeaderBenefitDesktop/HeaderBenefitDesktop.jsx";
 import HeaderBenefitMobile from "../Componentes/HeaderBenefit/HeaderBenefitMobile.jsx";
 import ShowcaseAndBanner from "../Componentes/ShowcaseAndBanner/ShowcaseAndBanner.jsx";
-import SectionBanner3Desk from "../Componentes/Sections/SectionBanner3Desk.jsx";
+import SectionBanner3Desk from "../Componentes/SectionsDesk/SectionBanner3Desk.jsx";
+import SectionExclusiveDesk from "../Componentes/SectionsDesk/SectionExclusiveDesk.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -141,7 +142,8 @@ const Home = () => {
         <SectionBanner2 />
         { showBlockMobile && <SectionBanner3 />}
         { showBlockDesktop && <SectionBanner3Desk/>}
-        <SectionExclusive />
+        {showBlockDesktop && <SectionExclusiveDesk/>}
+        { showBlockMobile && <SectionExclusive />}
         <SectionBrand />
         <ShowCaseProducts2 />
         <MeetLudique />
