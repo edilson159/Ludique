@@ -2242,6 +2242,25 @@ const Data = [
           {
             img: "../img/imgVans.png",
           },
+          {
+            img: "../img/imgTipToey.png",
+          },
+          {
+            img: "../img/imgConverse.png",
+          },
+          {
+            img: "../img/imgVert.png",
+          },
+          {
+            img: "../img/imgCrocs.png",
+          },
+          {
+            img: "../img/imgMelissa.png",
+          },
+          {
+            img: "../img/imgFila.png",
+          },
+
         ],
       },
     ],
@@ -2264,6 +2283,7 @@ const Data = [
           },
           {
             name: "VER TODOS >",
+            link:'//',
           },
         ],
         logo: "../img/LogoLudiqueP.png",
@@ -2342,7 +2362,15 @@ const Data = [
   {
     presentLudique: [
       {
-        img: "../img/imgPresent.png",
+        images:[
+          {
+            img: "../img/imgPresent.png",
+          },
+          {
+            img: "../img/imgPresentDesk.png",
+          },
+        ],
+        
         title: "Dê um Ludique de presente",
         description:
           "Compre os melhores presentes e receba em casa no mesmo dia!",
@@ -2354,14 +2382,8 @@ const Data = [
   {
     social: [
       {
-        icons: [
-          {
-            icon: "../img/iconSocial.png",
-          },
-          {
-            icon: "../img/iconInstagram1.png",
-          },
-        ],
+        
+        icon: "../img/iconInstagram1.png",  
         title: "SIGA A GENTE",
         link: "//",
         button: "@ludiqueetbadin",

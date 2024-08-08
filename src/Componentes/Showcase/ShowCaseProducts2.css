@@ -226,10 +226,12 @@
   letter-spacing: 0.02em;
   text-align: center;
   padding-top: 30px;
+  color: #626262;
 }
 
 @media (min-width: 1025px) {
   .container-card-showcase-products-2-icons {
+    top: 0px;
     width: 6.5%;
   }
   .container-card-showcase-products-2-logo-ludique {
@@ -242,5 +244,83 @@
     justify-content: center;
     padding-left: 40px;
     width: unset;
+  }
+
+  .container-card-showcase-products-2 {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+  }
+
+  .container-card-showcase-products-2-p1 button.slick-arrow.slick-next {
+    right: 1px;
+  }
+
+  .container-card-showcase-products-2 h2 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+
+  .container-description-2 {
+    width: unset;
+  }
+
+  .container-card-showcase-products-2-old-price-and-discount
+    .container-old-price {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-2-current-price {
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-2-payment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+  }
+
+  .container-card-showcase-products-2-button {
+    width: 100%;
+  }
+
+  .container-card-showcase-products-2-button a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }  
+
+  .container-discount {
+    width: 42px;
+    height: 17px;
+  }
+
+  .container-discount p {
+    font-size: 12px;
+    line-height:14.72px ;
+
+  }
+
+  .container-card-showcase-products-2-name a {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.75px;
+  letter-spacing: 0.02em;
+  text-align: center;
+ color: #626262;
   }
 }

@@ -102,3 +102,19 @@
   text-align: center;
   color: #626262;
 }
+
+@media (min-width:1025px) {
+  .container-card-section-brand-header h2 {
+    font-size: 32px;
+    line-height: 42.22px;
+  }
+  .container-card-section-brand-header p {
+    font-size: 24px;
+    line-height: 28.13px
+  }
+
+  .container-card-section-brand-name-item {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+}

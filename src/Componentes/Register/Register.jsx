@@ -38,10 +38,13 @@ const Register = () => {
                       </div>
                     ))}
                 </div>
-              </div>
-              <button className="container-card-register-button">
+                <div>
+                <button className="container-card-register-button">
                 {button}
               </button>
+                </div>
+              </div>
+              
             </div>
           )
         )}

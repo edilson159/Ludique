@@ -4,13 +4,13 @@
   flex-direction: column;
   justify-content: center;
   gap: 8px;
-  z-index: 100000000000;
+  z-index: 1000000000000000000;
   width: 100%;
 }
-
+ 
 .container-header-mobile-fixo {
   position: fixed;
-  z-index: 100000000000;
+  z-index: 10000000000000000000;
   top: 0px;
   display: flex;
   flex-direction: column;

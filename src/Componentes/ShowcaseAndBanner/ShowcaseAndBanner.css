@@ -83,3 +83,9 @@
   width: 50%;
   right: 0px;
 }
+
+@media (max-width:1025px) {
+  .container-showcase-and-banner {
+    display: none;
+  }
+}

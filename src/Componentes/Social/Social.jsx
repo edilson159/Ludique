@@ -10,12 +10,24 @@ const Social = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 2.69,
-    slidesToScroll: 2.69,
+    slidesToShow: 4.69,
+    slidesToScroll: 4.69,
     initialSlide: 0,
     arrows: false,
-    dots: false,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 2.69,
+          slidesToScroll: 2.69,
+          dots:true,
+        },
+      },
+    ]
   };
+
   return (
     <section className="container-social">
       <link
@@ -23,43 +35,29 @@ const Social = () => {
         rel="stylesheet"
       />
       {Data.find((e) => e.social).social.map(
-        ({ title, button, icons, link, imgs }, index) => (
+        ({ title, button, icon, link, imgs }, index) => (
           <div className="container-card-social" key={index}>
             <div className="container-card-social-header">
-              {icons.map(
-                ({ icon }, index) =>
-                  icon === "../img/iconSocial.png" && (
-                    <div key={index} className="line">
-                      <img src={icon} alt="" />
-                    </div>
-                  )
-              )}
+            <div className="container-icon">
+
+            </div>
               <div className="container-card-social-header-item">
-                {icons.map(
-                  ({ icon }, index) =>
-                    icon !== "../img/iconSocial.png" && (
+                
                       <img
                         className="container-card-social-icon"
-                        key={index}
+                        
                         src={icon}
                         alt=""
                       />
-                    )
-                )}
-
                 <h2 className="container-card-social-title">{title}</h2>
                 <a className="container-card-social-button" href={link}>
                   {button}
                 </a>
               </div>
-              {icons.map(
-                ({ icon }, index) =>
-                  icon === "../img/iconSocial.png" && (
-                    <div key={index} className="line">
-                      <img src={icon} alt="" />
-                    </div>
-                  )
-              )}
+              <div className="container-icon">
+
+              </div>
+              
             </div>
             <div className="container-card-social-imgs">
               <Slider {...settings}>

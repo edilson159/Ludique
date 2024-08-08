@@ -5,8 +5,8 @@
 }
 
 .container-card-register {
-  padding: 32px 22px;
-  background-color: #ffffff;
+  padding: 32px 0px;
+  background-color: #FFFFFFE5;
 }
 
 .container-card-register-p1 {
@@ -46,6 +46,7 @@
 
 .container-card-register-inputs {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 16px;
 }
@@ -126,4 +127,42 @@
   line-height: 16.21px;
   text-align: center;
   color: #ffffff;
+}
+
+
+@media (min-width:1025px) {
+  .container-register {
+    display: flex;
+    justify-content:center ;
+    padding: 30px 0px ;
+    background-position: center;
+  }
+  .container-card-register {
+    max-width: 1280px;
+    width: 95%;
+  }
+  .container-card-register-header h2 {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .container-card-register-header p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .container-card-register-inputs {
+    justify-content: space-around;
+    flex-direction: unset;
+  }
+  .container-card-register-input {
+    justify-content: space-around;
+    flex-direction: unset;
+  }
+  .container-card-register-input-item::placeholder {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+  .container-card-register-p1 label {
+    font-size: 14px;
+    line-height: 16.41px;
+  }
 }

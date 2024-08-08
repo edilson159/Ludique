@@ -7,9 +7,19 @@ const SectionBrand = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 10,
+    slidesToScroll: 10,
     initialSlide: 0,
+    resposive : [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+    ]
   };
   return (
     <section className="container-section-brand">

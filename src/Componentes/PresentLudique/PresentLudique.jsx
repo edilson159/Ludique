@@ -1,17 +1,26 @@
 import Data from "../Data/Data";
+import UseContext from "../Hook/UseContext";
 import "./PresentLudique.css";
 
 const PresentLudique = () => {
+  const {showBlockDesktop} = UseContext()
   return (
     <section className="container-present-ludique">
       {Data.find((e) => e.presentLudique).presentLudique.map(
-        ({ title, img, description, link, button }, index) => (
+        ({ title, images, description, link, button }, index) => (
           <div key={index} className="container-card-present-ludique">
-            <img
+            {images.map(({img}, index) => (
+           showBlockDesktop ? img === "../img/imgPresentDesk.png" &&  (<img key={index}
+              className="container-card-present-ludique-img"
+              src={img}
+              alt=""
+            />) :
+            img !== "../img/imgPresentDesk.png" &&  <img key={index}
               className="container-card-present-ludique-img"
               src={img}
               alt=""
             />
+            ))}
             <div className="container-card-present-ludique-description">
               <h2 className="container-card-present-ludique-title">{title}</h2>
               <div className="container-card-present-ludique-description-p1">

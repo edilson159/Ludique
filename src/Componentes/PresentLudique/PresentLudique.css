@@ -76,3 +76,35 @@
   color: #65ade0;
   text-decoration: none;
 }
+
+
+@media (min-width:1025px) {
+  .container-card-present-ludique {
+    padding: 0px 40px;
+    width: unset;
+  }
+  .container-card-present-ludique-description {
+    width: 578px;
+    bottom: 137px;
+    right: 97px;
+  }  
+
+  .container-card-present-ludique-title {
+    font-size: 44px;
+    line-height: 69.34px;
+  }
+
+  .container-card-present-ludique-description-p1 p {
+    font-size: 18px ;
+    line-height: 27px;
+  }
+
+  .container-card-present-ludique-button {
+    width: 286px;
+    height: 48px;
+  }
+  .container-card-present-ludique-button-item {
+    font-size: 14px;
+    line-height: 18.91px;
+  }
+}

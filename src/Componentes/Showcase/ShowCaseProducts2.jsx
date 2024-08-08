@@ -15,6 +15,14 @@ const ShowCaseProducts2 = () => {
         breakpoint: 1024,
         settings: {
           infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          infinite: true,
           slidesToShow: 2,
           slidesToScroll: 2,
         },
@@ -109,15 +117,14 @@ const ShowCaseProducts2 = () => {
           {Data.find((e) => e.showcaseProducts2)
             .showcaseProducts2.find((e) => e.names)
             .names.map(
-              ({ name }, index) =>
+              ({ name, link }, index) =>
                 name === "VER TODOS >" && (
                   <div
                     key={index}
                     className="container-card-showcase-products-2-name"
                   >
-                    <p className="container-card-showcase-products-2-name-item">
-                      {name}
-                    </p>
+                    <a href={link} className="container-card-showcase-products-2-name-item">{name}</a>
+                   
                   </div>
                 )
             )}

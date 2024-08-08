@@ -347,4 +347,15 @@
     position: absolute;
     left: -35px;
   }
+
+  .container-discount {
+    width: 42px;
+    height: 17px;
+  }
+
+  .container-discount p {
+    font-size: 12px;
+    line-height:14.72px ;
+
+  }
 }
