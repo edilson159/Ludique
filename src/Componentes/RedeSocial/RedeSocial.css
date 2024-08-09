@@ -25,3 +25,17 @@
   display: flex;
   gap: 19px;
 }
+
+@media (min-width:1025px) {
+  .container-rede-Social {
+    width: unset;
+  }
+  .container-card-rede-Social {
+    border: none;
+  }
+
+  .container-card-rede-Social-title {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+}

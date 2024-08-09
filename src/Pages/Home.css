@@ -1,5 +1,5 @@
 @media (min-width:1025px) {
-  .container-showcase {
+  .container-hidden {
     display: none;
   }
 }

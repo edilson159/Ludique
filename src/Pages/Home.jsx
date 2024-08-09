@@ -27,6 +27,7 @@ import HeaderBenefitMobile from "../Componentes/HeaderBenefit/HeaderBenefitMobil
 import ShowcaseAndBanner from "../Componentes/ShowcaseAndBanner/ShowcaseAndBanner.jsx";
 import SectionBanner3Desk from "../Componentes/SectionsDesk/SectionBanner3Desk.jsx";
 import SectionExclusiveDesk from "../Componentes/SectionsDesk/SectionExclusiveDesk.jsx";
+import Footer1Desk from "../Componentes/Footer1Desk/Footer1Desk.jsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -136,7 +137,7 @@ const Home = () => {
         {showBlockDesktop && <ShowCaseBenefit />}
         <SectionBanner />
         <ShowcaseAndBanner />
-        <div className="container-showcase">
+        <div className="container-hidden">
           {showBlockMobile && <ShowCaseProducts />}
         </div>
         <SectionBanner2 />
@@ -150,10 +151,13 @@ const Home = () => {
         <PresentLudique />
         <Social />
         <Register />
-        <SummaryFooter />
-        {showBlockDesktop && <Payment />}
-        {showBlockDesktop && <Security />}
-        {showBlockDesktop && <RedeSocial />}
+        <div className="container-hidden">
+          { showBlockMobile && <SummaryFooter />}
+          {showBlockMobile && <Payment />}
+          {showBlockMobile && <Security />}
+          {showBlockMobile && <RedeSocial />}
+        </div>
+        <Footer1Desk/>
         <Footer />
       </section>
     </Context.Provider>

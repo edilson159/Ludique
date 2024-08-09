@@ -30,3 +30,18 @@
   display: flex;
   align-items: center;
 }
+
+@media (min-width:1025px) {
+  .container-card-security {
+    border: none;
+  }
+
+  .container-card-security-title {
+    font-family: LEMON MILK;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.61px;
+    text-align: center;
+
+  }
+}

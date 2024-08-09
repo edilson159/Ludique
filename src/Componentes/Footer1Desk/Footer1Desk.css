@@ -1,0 +1,21 @@
+.container-footer-1-desk {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding:48.47px 0px 40.53px 0px;
+}
+
+.container-card-footer-1-desk-img {
+    padding-left: 52px;
+}
+
+
+.container-card-footer-1-desk {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap:64px ;
+    padding: 0px 52px;
+    
+}
