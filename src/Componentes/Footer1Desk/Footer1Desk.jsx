@@ -2,7 +2,7 @@ import Data from "../Data/Data"
 import Payment from "../Payment/Payment"
 import RedeSocial from "../RedeSocial/RedeSocial"
 import Security from "../Security/Security"
-import SummaryFooter from "../SummaryFooter/SummaryFooter"
+import SummaryFooterDesk from "../SummaryFooterDesk/SummaryFooterDesk"
 import "./Footer1Desk.css"
 
 const Footer1Desk = () => {
@@ -10,12 +10,12 @@ const Footer1Desk = () => {
         <section className="container-footer-1-desk">
             <div className="container-card-footer-1-desk-img">
                 {Data.find(e => e.summaryFooter).summaryFooter.map(({img}, index) => (
-                    <img src={img} alt="" />
+                    <img key={index} src={img} alt="" />
                 ))}
             </div>
             <div className="container-card-footer-1-desk">
                 <RedeSocial/>
-                <SummaryFooter/>
+                <SummaryFooterDesk/>
                 <div className="container-card-footer-1-desk-payment-security">
                     <Payment/>
                     <Security/>

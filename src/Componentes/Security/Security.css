@@ -34,6 +34,8 @@
 @media (min-width:1025px) {
   .container-card-security {
     border: none;
+    margin: unset;
+    align-items: start;
   }
 
   .container-card-security-title {

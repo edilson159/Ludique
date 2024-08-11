@@ -9,14 +9,28 @@
 }
 
 .container-card-footer-1-desk-img {
-    padding-left: 52px;
+    padding-left: 26px;
+    width: 100%;
+    max-width: 1280px;
 }
 
 
 .container-card-footer-1-desk {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    column-gap:64px ;
-    padding: 0px 52px;
+    display: flex;
+    justify-content: space-around;
+   
+   
     
+}
+
+.container-card-footer-1-desk-payment-security {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@media (max-width:1025px) {
+    .container-footer-1-desk{
+        display: none;
+    }
 }

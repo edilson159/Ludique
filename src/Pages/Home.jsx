@@ -153,6 +153,7 @@ const Home = () => {
         <Register />
         <div className="container-hidden">
           { showBlockMobile && <SummaryFooter />}
+          
           {showBlockMobile && <Payment />}
           {showBlockMobile && <Security />}
           {showBlockMobile && <RedeSocial />}

@@ -82,6 +82,8 @@
 }
 
 .container-icon {
+  width: 100%;
+  min-width:150px ;
   border-top: 1px solid  #E7C367;
 }
 
