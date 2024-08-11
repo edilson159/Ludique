@@ -4,12 +4,17 @@
 }
 
 .container-card-showcase-products-main {
-  padding: 0px 10px 0px 20px;
+  margin: 0px 23.5px 0px 16.5px;
+}
+
+.container-card-showcase-products-main .slick-track {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
 }
 
 .container-card-showcase-products {
   background-color: #fff;
-  width: 93% !important;
 }
 
 .container-card-showcase-products-header {
@@ -70,16 +75,14 @@
   height: 28px;
 }
 
-.container-card-showcase-products-p1 {
-  padding-left: 13px;
-}
+
 
 .container-card-showcase-products-p1 button.slick-arrow.slick-next {
   position: absolute;
   z-index: 10000;
   background-image: url(/public/img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: 1%;
+  right: -2%;
   height: 30px;
   background-size: 10px;
   transform: translate(0, -120%);
@@ -98,7 +101,7 @@
   z-index: 10000;
   background-image: url(/public/img/arrowLeftProducts.png);
   background-repeat: no-repeat;
-  left: -16px;
+  left: -8px;
   height: 30px;
   background-size: 10px;
   transform: translate(0, -120%);

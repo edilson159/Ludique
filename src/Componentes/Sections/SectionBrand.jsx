@@ -10,16 +10,24 @@ const SectionBrand = () => {
     slidesToShow: 10,
     slidesToScroll: 10,
     initialSlide: 0,
-    resposive : [
+    responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
           infinite: true,
           slidesToShow: 4,
           slidesToScroll: 4,
         },
       },
-    ]
+      {
+        breakpoint: 600,
+        settings: {
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+    ],
   };
   return (
     <section className="container-section-brand">

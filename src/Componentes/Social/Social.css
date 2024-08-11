@@ -15,23 +15,12 @@
 .container-card-social-header {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   justify-content: center;
   padding-bottom: 24px;
   /* border-top: 1px solid #e7c367;
   transform: translateY(-50%); */
-}
-
-.line {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.line img {
- 
-  width: 100%;
 }
 
 .container-card-social-header-item {

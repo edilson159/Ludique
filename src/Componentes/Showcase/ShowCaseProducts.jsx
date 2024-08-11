@@ -14,7 +14,7 @@ const ShowCaseProducts = () => {
   return (
     <section className="container-showcase-products">
       <div className="container-card-showcase-products-main">
-        <div>
+        <>
           {Data.find(
             (e) => e.showcaseProductsAndBanner
           ).showcaseProductsAndBanner.map(
@@ -127,7 +127,7 @@ const ShowCaseProducts = () => {
               }
             </p>
           </div>
-        </div>
+        </>
       </div>
     </section>
   );
