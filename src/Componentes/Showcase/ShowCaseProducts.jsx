@@ -10,6 +10,24 @@ const ShowCaseProducts = () => {
     slidesToScroll: 2,
     initialSlide: 0,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
   return (
     <section className="container-showcase-products">
