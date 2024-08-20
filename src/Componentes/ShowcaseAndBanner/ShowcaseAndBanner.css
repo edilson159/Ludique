@@ -69,6 +69,11 @@
   height: 28px;
 }
 
+.container-card-showcase-and-banner-header-buttons .button-active {
+  background-color: #004581;
+  color: #fff;
+}
+
 .container-card-showcase-and-banner {
   display: flex;
   justify-content: center;

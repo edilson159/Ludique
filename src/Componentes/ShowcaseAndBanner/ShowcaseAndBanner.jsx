@@ -1,9 +1,17 @@
+import { useState } from "react";
 import BannerShowcase from "../BannerShowcase/BannerShowcase";
 import Data from "../Data/Data";
 import ShowCaseProducts from "../Showcase/ShowCaseProducts";
 import "./ShowcaseAndBanner.css";
 
 const ShowcaseAndBanner = () => {
+
+  const [active, setActive] = useState( false)
+
+  function toggleButton () {
+    
+    setActive(!active)
+  } 
   return (
     <section className="container-showcase-and-banner">
       <div className="container-card-showcase-and-banner-main">
@@ -37,7 +45,7 @@ const ShowcaseAndBanner = () => {
                       Data.find((e) => e.showcaseProductsAndBanner)
                         .showcaseProductsAndBanner.find((e) => e.buttons)
                         .buttons.map(({ button }, index) => (
-                          <button key={index}>{button}</button>
+                          <button onClick={ () => toggleButton()} className={active ? "button-active" : "" } key={index}>{button}</button>
                         ))}
                   </div>
                 </div>
