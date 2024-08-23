@@ -5,7 +5,7 @@
 }
 
 .container-card-section-brand {
-  padding: 0px 5px 0px 21px ;
+  padding: 0px 5.5px 0px 21px;
 }
 
 .container-card-section-brand-p1 {
@@ -47,7 +47,7 @@
 .container-card-section-brand button.slick-arrow.slick-next {
   background-image: url(/public//img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: 0px;
+  right: -11px;
   transform: translate(0, -50%);
   background-position: center;
 }
@@ -105,14 +105,14 @@
   color: #626262;
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .container-card-section-brand-header h2 {
     font-size: 32px;
     line-height: 42.22px;
   }
   .container-card-section-brand-header p {
     font-size: 24px;
-    line-height: 28.13px
+    line-height: 28.13px;
   }
 
   .container-card-section-brand-name-item {
