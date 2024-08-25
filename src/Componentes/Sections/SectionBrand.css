@@ -47,7 +47,7 @@
 .container-card-section-brand button.slick-arrow.slick-next {
   background-image: url(/public//img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: -11px;
+  right: -9px;
   transform: translate(0, -50%);
   background-position: center;
 }
