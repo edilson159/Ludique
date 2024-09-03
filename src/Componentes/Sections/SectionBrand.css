@@ -5,7 +5,7 @@
 }
 
 .container-card-section-brand {
-  padding: 0px 5.5px 0px 21px;
+  padding: 0px 11px 0px 21px;
 }
 
 .container-card-section-brand-p1 {
@@ -47,7 +47,7 @@
 .container-card-section-brand button.slick-arrow.slick-next {
   background-image: url(/public//img/arrowRightProducts.png);
   background-repeat: no-repeat;
-  right: -9px;
+  right: -5px;
   transform: translate(0, -50%);
   background-position: center;
 }
