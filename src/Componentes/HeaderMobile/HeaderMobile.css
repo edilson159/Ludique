@@ -7,7 +7,7 @@
   z-index: 1000000000000000000;
   width: 100%;
 }
- 
+
 .container-header-mobile-fixo {
   position: fixed;
   z-index: 10000000000000000000;
@@ -28,6 +28,14 @@
   gap: 13.86px;
   padding: 20.43px 0px 16px 0px;
   width: 100%;
+}
+
+.container-header-mobile .container-card-header-mobile-main-active {
+  padding: 20.43px 0px 16px 0px;
+}
+
+.container-header-mobile-fixo .container-card-header-mobile-main-active {
+  padding: unset;
 }
 
 .container-card-header-mobile-main-active {
