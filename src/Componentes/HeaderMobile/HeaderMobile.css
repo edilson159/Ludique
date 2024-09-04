@@ -17,7 +17,7 @@
   gap: 8px;
   background-color: #f8f8f8;
   width: 100%;
-  border-bottom: 1px solid #ffd700;
+  border-bottom: double #b8993a;
 }
 
 .container-card-header-mobile-main {
@@ -32,6 +32,7 @@
 
 .container-header-mobile .container-card-header-mobile-main-active {
   padding: 20.43px 0px 16px 0px;
+  border-bottom: double #b8993a;
 }
 
 .container-header-mobile-fixo .container-card-header-mobile-main-active {

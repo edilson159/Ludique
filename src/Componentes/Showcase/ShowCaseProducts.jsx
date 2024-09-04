@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "./ShowCaseProducts.css";
 import Data from "../Data/Data";
 
-const ShowCaseProducts = () => {
+const ShowCaseProducts = (products) => {
   const settings = {
     infinite: true,
     speed: 500,

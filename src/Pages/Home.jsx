@@ -28,6 +28,7 @@ import ShowcaseAndBanner from "../Componentes/ShowcaseAndBanner/ShowcaseAndBanne
 import SectionBanner3Desk from "../Componentes/SectionsDesk/SectionBanner3Desk.jsx";
 import SectionExclusiveDesk from "../Componentes/SectionsDesk/SectionExclusiveDesk.jsx";
 import Footer1Desk from "../Componentes/Footer1Desk/Footer1Desk.jsx";
+import Data from "../Componentes/Data/Data.js";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -138,13 +139,20 @@ const Home = () => {
         <SectionBanner />
         <ShowcaseAndBanner />
         <div className="container-hidden">
-          {showBlockMobile && <ShowCaseProducts />}
+          {showBlockMobile && (
+            <ShowCaseProducts
+              products={
+                Data.find((e) => e.showcaseProductsAndBanner)
+                  .showcaseProductsAndBanner
+              }
+            />
+          )}
         </div>
         <SectionBanner2 />
-        { showBlockMobile && <SectionBanner3 />}
-        { showBlockDesktop && <SectionBanner3Desk/>}
-        {showBlockDesktop && <SectionExclusiveDesk/>}
-        { showBlockMobile && <SectionExclusive />}
+        {showBlockMobile && <SectionBanner3 />}
+        {showBlockDesktop && <SectionBanner3Desk />}
+        {showBlockDesktop && <SectionExclusiveDesk />}
+        {showBlockMobile && <SectionExclusive />}
         <SectionBrand />
         <ShowCaseProducts2 />
         <MeetLudique />
@@ -152,13 +160,13 @@ const Home = () => {
         <Social />
         <Register />
         <div className="container-hidden">
-          { showBlockMobile && <SummaryFooter />}
-          
+          {showBlockMobile && <SummaryFooter />}
+
           {showBlockMobile && <Payment />}
           {showBlockMobile && <Security />}
           {showBlockMobile && <RedeSocial />}
         </div>
-        <Footer1Desk/>
+        <Footer1Desk />
         <Footer />
       </section>
     </Context.Provider>
