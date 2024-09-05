@@ -1,8 +1,14 @@
 import Slider from "react-slick";
 import "./ShowCaseProducts.css";
 import Data from "../Data/Data";
+import { useState } from "react";
 
-const ShowCaseProducts = (products) => {
+const ShowCaseProducts = (props) => {
+  const [activeButton, setActiveButton] = useState(0);
+
+  const handleButtonClick = (id) => {
+    setActiveButton(id);
+  };
   const settings = {
     infinite: true,
     speed: 500,
@@ -33,9 +39,7 @@ const ShowCaseProducts = (products) => {
     <section className="container-showcase-products">
       <div className="container-card-showcase-products-main">
         <>
-          {Data.find(
-            (e) => e.showcaseProductsAndBanner
-          ).showcaseProductsAndBanner.map(
+          {props.products?.map(
             ({ title, icon, buttons }, index) =>
               title && (
                 <div
@@ -60,10 +64,18 @@ const ShowCaseProducts = (products) => {
                     </div>
                     <div className="container-card-showcase-products-header-buttons">
                       {buttons &&
-                        Data.find((e) => e.showcaseProductsAndBanner)
-                          .showcaseProductsAndBanner.find((e) => e.buttons)
+                        props.products
+                          ?.find((e) => e.buttons)
                           .buttons.map(({ button }, index) => (
-                            <button key={index}>{button}</button>
+                            <button
+                              key={index}
+                              className={`${
+                                activeButton === index ? "active" : ""
+                              }`}
+                              onClick={() => handleButtonClick(index)}
+                            >
+                              {button}
+                            </button>
                           ))}
                     </div>
                   </div>

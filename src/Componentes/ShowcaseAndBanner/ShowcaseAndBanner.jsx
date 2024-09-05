@@ -5,13 +5,12 @@ import ShowCaseProducts from "../Showcase/ShowCaseProducts";
 import "./ShowcaseAndBanner.css";
 
 const ShowcaseAndBanner = () => {
+  const [activeButton, setActiveButton] = useState(0);
 
-  const [active, setActive] = useState( false)
+  function handleButtonClick(id) {
+    setActiveButton(id);
+  }
 
-  function toggleButton () {
-    
-    setActive(!active)
-  } 
   return (
     <section className="container-showcase-and-banner">
       <div className="container-card-showcase-and-banner-main">
@@ -45,7 +44,15 @@ const ShowcaseAndBanner = () => {
                       Data.find((e) => e.showcaseProductsAndBanner)
                         .showcaseProductsAndBanner.find((e) => e.buttons)
                         .buttons.map(({ button }, index) => (
-                          <button onClick={ () => toggleButton()} className={active ? "button-active" : "" } key={index}>{button}</button>
+                          <button
+                            key={index}
+                            className={`${
+                              activeButton === index ? "button-active" : ""
+                            }`}
+                            onClick={() => handleButtonClick(index)}
+                          >
+                            {button}
+                          </button>
                         ))}
                   </div>
                 </div>

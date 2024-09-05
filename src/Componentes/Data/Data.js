@@ -2260,7 +2260,6 @@ const Data = [
           {
             img: "../img/imgFila.png",
           },
-
         ],
       },
     ],
@@ -2282,8 +2281,23 @@ const Data = [
             name: "OUTLET",
           },
           {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
+            name: "OUTLET",
+          },
+          {
             name: "VER TODOS >",
-            link:'//',
+            link: "//",
           },
         ],
         logo: "../img/LogoLudiqueP.png",
@@ -2362,7 +2376,7 @@ const Data = [
   {
     presentLudique: [
       {
-        images:[
+        images: [
           {
             img: "../img/imgPresent.png",
           },
@@ -2370,7 +2384,7 @@ const Data = [
             img: "../img/imgPresentDesk.png",
           },
         ],
-        
+
         title: "Dê um Ludique de presente",
         description:
           "Compre os melhores presentes e receba em casa no mesmo dia!",
@@ -2382,8 +2396,7 @@ const Data = [
   {
     social: [
       {
-        
-        icon: "../img/iconInstagram1.png",  
+        icon: "../img/iconInstagram1.png",
         title: "SIGA A GENTE",
         link: "//",
         button: "@ludiqueetbadin",
@@ -2716,20 +2729,21 @@ const Data = [
     ],
   },
   {
-    sectionExclusiveDesk:[
+    sectionExclusiveDesk: [
       {
-        img:'../img/imgExclusivoLu.png',
-        button:'VER EXCLUSIVOS LUDIQUE',
-        title:'EXCLUSIVE',
-        span:'LUDIQUE',
-        link:'//',
-        description:'Dia de chuva? Que tal deixar eles ainda mais divertidos e confortáveis com as Galochas Ludique? São diversas cores para toda a criançada!',
-        icons:[
+        img: "../img/imgExclusivoLu.png",
+        button: "VER EXCLUSIVOS LUDIQUE",
+        title: "EXCLUSIVE",
+        span: "LUDIQUE",
+        link: "//",
+        description:
+          "Dia de chuva? Que tal deixar eles ainda mais divertidos e confortáveis com as Galochas Ludique? São diversas cores para toda a criançada!",
+        icons: [
           {
-             icon:'../img/iconBalloon.png',
+            icon: "../img/iconBalloon.png",
           },
           {
-             icon:'../img/iconEsclusiveLudique.svg',
+            icon: "../img/iconEsclusiveLudique.svg",
           },
         ],
       },

@@ -32,7 +32,7 @@ const ShowCaseProducts2 = () => {
   return (
     <section className="container-showcase-products-2">
       <div className="container-card-showcase-products-2-names">
-        <div className="container-card-showcase-products-2-names-main">
+        <article className="container-card-showcase-products-2-names-main">
           {Data.find((e) => e.showcaseProducts2)
             .showcaseProducts2.find((e) => e.names)
             .names.map(
@@ -46,7 +46,7 @@ const ShowCaseProducts2 = () => {
                   </p>
                 )
             )}
-        </div>
+        </article>
       </div>
       <div className="container-card-showcase-products-2-main">
         <div>
@@ -123,8 +123,12 @@ const ShowCaseProducts2 = () => {
                     key={index}
                     className="container-card-showcase-products-2-name"
                   >
-                    <a href={link} className="container-card-showcase-products-2-name-item">{name}</a>
-                   
+                    <a
+                      href={link}
+                      className="container-card-showcase-products-2-name-item"
+                    >
+                      {name}
+                    </a>
                   </div>
                 )
             )}

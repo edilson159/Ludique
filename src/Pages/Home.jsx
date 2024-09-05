@@ -30,7 +30,7 @@ import SectionExclusiveDesk from "../Componentes/SectionsDesk/SectionExclusiveDe
 import Footer1Desk from "../Componentes/Footer1Desk/Footer1Desk.jsx";
 import Data from "../Componentes/Data/Data.js";
 
-const Home = () => {
+const Home = (props) => {
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState(false);
   const [actived, setActived] = useState(false);
@@ -105,6 +105,7 @@ const Home = () => {
     }
   }
   toggleScrollPageHome();
+
   return (
     <Context.Provider
       value={{
@@ -142,6 +143,7 @@ const Home = () => {
           {showBlockMobile && (
             <ShowCaseProducts
               products={
+                props.products ||
                 Data.find((e) => e.showcaseProductsAndBanner)
                   .showcaseProductsAndBanner
               }
