@@ -15,17 +15,6 @@ const BannerMobile = () => {
   };
   return (
     <section className="container-banner-mobile">
-      <link
-        rel="stylesheet"
-        type="text/css"
-        charset="UTF-8"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      />
       <div className="container-card-banner-mobile">
         <Slider {...settings}>
           {Data.find((e) => e.bannerMobile).bannerMobile.map(

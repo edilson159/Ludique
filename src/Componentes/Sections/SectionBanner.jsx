@@ -3,25 +3,13 @@ import UseContext from "../Hook/UseContext";
 import "./SectionBanner.css";
 
 const SectionBanner = () => {
-  const { showBlockDesktop } = UseContext()
+  const { showBlockDesktop } = UseContext();
   return (
     <section className="container-section-banner">
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
-        rel="stylesheet"
-      />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia&display=swap"
-        rel="stylesheet"
-      />
       <div className="container-card-section-banner">
-
-        {   Data.find((e) => e.sectionBanner).sectionBanner.slice(0, 2).map(
-          ({ title, description, img, button }, index) => (
+        {Data.find((e) => e.sectionBanner)
+          .sectionBanner.slice(0, 2)
+          .map(({ title, description, img, button }, index) => (
             <div
               className={
                 title === "Meninos"
@@ -51,10 +39,7 @@ const SectionBanner = () => {
                 />
               </div>
             </div>
-          )
-        ) }
-      
-      
+          ))}
       </div>
     </section>
   );
